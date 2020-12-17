@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>compensación de energía on Airspace | Creative Agency Hugo Template</title>
+    <link>https://flightcomp.github.io/es/tags/compensaci%C3%B3n-de-energ%C3%ADa/</link>
+    <description>Recent content in compensación de energía on Airspace | Creative Agency Hugo Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) Todos los derechos reservados</copyright>
+    <lastBuildDate>Wed, 12 Sep 2018 12:52:36 +0600</lastBuildDate>
+    
+	<atom:link href="https://flightcomp.github.io/es/tags/compensaci%C3%B3n-de-energ%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fallos del variómetro de energía total</title>
+      <link>https://flightcomp.github.io/es/portfolio/te-variometer/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/te-variometer/</guid>
+      <description>El variómetro de energía total de un planeador tiene en cuenta los intercambios de energía debidos a movimentos horizontales y verticales del aire. El variómetro ET mezcla ambos efectos dando como resultado indicaciones que inducen a error al piloto.</description>
+    </item>
+    
+  </channel>
+</rss>

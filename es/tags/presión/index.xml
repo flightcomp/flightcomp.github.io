@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>presión on Airspace | Creative Agency Hugo Template</title>
+    <link>https://flightcomp.github.io/es/tags/presi%C3%B3n/</link>
+    <description>Recent content in presión on Airspace | Creative Agency Hugo Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) Todos los derechos reservados</copyright>
+    <lastBuildDate>Mon, 12 Sep 2016 12:52:36 +0600</lastBuildDate>
+    
+	<atom:link href="https://flightcomp.github.io/es/tags/presi%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Densidad del aire</title>
+      <link>https://flightcomp.github.io/es/portfolio/density/</link>
+      <pubDate>Mon, 12 Sep 2016 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/density/</guid>
+      <description>Vivo cerca de la costa y cuando voy a volar al interior a 1500 mts. de altitud veo a muchos voladores despegar con 30 km/h de viento meteo. Ellos dicen que no es lo mismo 30 km/h de viento a nivel del mar que a 1500 mts.</description>
+    </item>
+    
+  </channel>
+</rss>

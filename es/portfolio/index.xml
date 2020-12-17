@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Airspace | Creative Agency Hugo Template</title>
+    <link>https://flightcomp.github.io/es/portfolio/</link>
+    <description>Recent content in Projects on Airspace | Creative Agency Hugo Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) Todos los derechos reservados</copyright>
+    <lastBuildDate>Wed, 12 Sep 2018 12:52:36 +0600</lastBuildDate>
+    
+	<atom:link href="https://flightcomp.github.io/es/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Calibración del altímetro</title>
+      <link>https://flightcomp.github.io/es/portfolio/altimeter-calibration/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/altimeter-calibration/</guid>
+      <description>Los sensores de presión han sido relegados en favor de los receptores gnss para estimar la altitud principalmente porque hay que calibrarlos. El QNH puede variar en más de 5 hPa (50 mts) a lo largo del día o entre lugares situados a más de 50 km.</description>
+    </item>
+    
+    <item>
+      <title>Estimación del viento meteo</title>
+      <link>https://flightcomp.github.io/es/portfolio/meteo-wind-estimation/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/meteo-wind-estimation/</guid>
+      <description>La estimación del viento es una característica fundamental de un computador de vuelo porque es la base para la estimación de otras cantidades como el tiempo de vuelo o la altitud necesaria para llegar a una baliza.</description>
+    </item>
+    
+    <item>
+      <title>Fallos del variómetro de energía total</title>
+      <link>https://flightcomp.github.io/es/portfolio/te-variometer/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/te-variometer/</guid>
+      <description>El variómetro de energía total de un planeador tiene en cuenta los intercambios de energía debidos a movimentos horizontales y verticales del aire. El variómetro ET mezcla ambos efectos dando como resultado indicaciones que inducen a error al piloto.</description>
+    </item>
+    
+    <item>
+      <title>Planear mas lejos</title>
+      <link>https://flightcomp.github.io/es/portfolio/speed-control/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/speed-control/</guid>
+      <description>Las teorías tradicionales para el cálculo de la velocidad de planeo máximo no sirven cuando el curso de vuelo no coincide con el rumbo. Prácticamente ningún instrumento tiene esto en consideración cuando calcula la velocidad de planeo máximo.</description>
+    </item>
+    
+    <item>
+      <title>Variómetro de bajo retardo</title>
+      <link>https://flightcomp.github.io/es/portfolio/lag-free-variometer/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/lag-free-variometer/</guid>
+      <description>Variometers that rely only in pressure sensor readings suffer from delays of more than 500 msg. The delay of the vario has a direct impact in pilot&amp;rsquo;s reaction time and in his learning proccess of wing reactions to thermal turbulence.</description>
+    </item>
+    
+    <item>
+      <title>Densidad del aire</title>
+      <link>https://flightcomp.github.io/es/portfolio/density/</link>
+      <pubDate>Mon, 12 Sep 2016 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/density/</guid>
+      <description>Vivo cerca de la costa y cuando voy a volar al interior a 1500 mts. de altitud veo a muchos voladores despegar con 30 km/h de viento meteo. Ellos dicen que no es lo mismo 30 km/h de viento a nivel del mar que a 1500 mts.</description>
+    </item>
+    
+  </channel>
+</rss>

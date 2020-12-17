@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bearing on Airspace | Creative Agency Hugo Template</title>
+    <link>https://flightcomp.github.io/tags/bearing/</link>
+    <description>Recent content in bearing on Airspace | Creative Agency Hugo Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 12 Sep 2018 12:52:36 +0600</lastBuildDate>
+    
+	<atom:link href="https://flightcomp.github.io/tags/bearing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meteo wind estimation</title>
+      <link>https://flightcomp.github.io/portfolio/meteo-wind-estimation/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/portfolio/meteo-wind-estimation/</guid>
+      <description>One of the main features of today glide computers is the estimation of wind, the speed and direction of the air mass we&amp;rsquo;re moving in. It&amp;rsquo;s the base of other glide insturment estimations like the required time and altitude to reach a waypoint.</description>
+    </item>
+    
+  </channel>
+</rss>

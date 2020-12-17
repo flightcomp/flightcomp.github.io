@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es-es"><head>
+  <meta charset="utf-8">
+  <title>variómetro</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.69.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/scss/style.min.css" media="screen">
+
+  <!-- Custom stylesheet - for your changes -->
+  <link rel="stylesheet" href="/css/custom.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://flightcomp.github.io/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://flightcomp.github.io/images/favicon.png" type="image/x-icon">
+
+</head>
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/es">
+              <img src="https://flightcomp.github.io/images/logo.png" alt="Airspace | Creative Agency Hugo Template" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              
+		<li><a href="/es#body">Inicio</a></li>
+		
+		
+		  <li><a href="/es/#project">Proyecto</a></li>	
+		
+		
+		
+		  <li><a href="/es/#innovations">Innovations</a></li>	
+		
+		
+		
+		  <li><a href="/es/#contactus">Contacto</a></li>	
+		
+		
+	      
+		
+              
+              <li>
+                <select id="select-language" onchange="location = this.value;">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <option id="es" value="https://flightcomp.github.io/es/tags/vari%C3%B3metro/" selected>
+                    Es
+                  </option>
+                  
+                  
+                  
+                  
+                </select>
+              </li>
+              
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+  <section class="page-title bg-2" style="background-image: url('https://flightcomp.github.io/images/featue-bg-mod.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Variómetro de bajo retardo</h1>
+          <p>Variómetro de bajo retardo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio-single-page section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <img class="img-responsive w-100" src="/images/portfolio/magneto_dynamic_mod.png" alt="">
+      </div>
+      <div class="col-md-4">
+        <div class="project-details">
+          <h4>Detalles del artículo</h4>
+          <ul>
+	    <li><span>Autor:</span>
+	      
+	        <strong>Aitor Castro</strong>
+	      
+	    </li>
+	    <li><span>Términos:</span> <strong>Variómetro, Acelerómetro</strong></li>
+	    <li><span>Dificultad:</span> <strong>Intermedio</strong></li>
+	    <li><span>Modificado:</span> <strong>
+    12 de Septiembre de 2018
+
+</strong></li>
+	    <li><span>Título:</span> <strong>Variómetro de bajo retardo</strong></li>
+	    <li><span>Descripción:</span> <strong>Variómetro de bajo retardo</strong></li>
+	    
+            <li><span>Habilidades:</span> <strong>Teoría de control, estadística</strong></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-content mt-50">
+          <p>Variometers that rely only in pressure sensor readings suffer from delays of more than 500 msg. The delay of the vario has a direct impact in pilot&rsquo;s reaction time and in his learning proccess of wing reactions to thermal turbulence.</p>
+<p>As we saw in the article <a href="/es/portfolio/altimeter-calibration">calibración del altímetro</a> the formula to obtain the altitude over sea level is:</p>
+<p>$$h=\frac{T_0}{L} * \left[ 1- \left(\frac{p}{QNH}\right)^{\frac{L\cdot R}{g}}\right]$$</p>
+<p>To obtain the vertical speed we must take the derivative of the pressure signal with respect to time.</p>
+<p>$$\frac{dp}{dh}=-\frac{g}{R\cdot T} * p \to \frac{dh}{dt} = -\frac{dp}{dt} * \frac{R \cdot T}{g \cdot p}$$</p>
+<p>When used for free flight, the two most valuable features of a pressure sensor are responsiveness and precission. Newest pressure sensors improve precission in regard to oldest ones in some modes of operation because they feature an internal IIR filter that, on the other hand, reduces bandwith well below 2 Hz. For flight purposes we need at least 5 Hz of frequency bandwith and data sampling rates above 10 samples per second what makes this modes of operation unusable. Therefore we have to select a mode of operation that switches the IIR filter off worsening precission to around 25 cm (0.03 hPa). If x[n] represents the noise signal added to the true pressure at the moment nT where T is de sampling period in seconds, the derivative of the pressure readings of a static sensor would be:</p>
+<p>$$y[n]=\frac{x[n+1]-x[n]}{T}$$</p>
+<p>Assuming uncorrelated noise, the standard deviation (RMS) of the derivative signal is:</p>
+<p>$$\sigma_y=\frac {{\sqrt 2} \sigma_x}{T}$$</p>
+<p>Which in the case above gives an unacceptable RMS error of 3.53 m/s in the climb/descent rate. Low pass pre-filtering of the pressure signal before making the derivative is not an option because a low-pass filter reduces bandwith and adds delay too.</p>
+<p>Fortunately a smartphone has more sensors. One of them is a tri-axial accelerometer which detects the accelerations of the phone. We are interested in the vertical component of the acceleration after substracting gravity. We integrate this signal over time to obtain an estimation of vertical speed and integrate it once more to obtain altitude.</p>
+<p>Whereas differentiation enhances high-frequency noise, integration enhances low-frequency noise, commonly known as drift. To correct for this drift we use the sensor pressure readings. This is implemented with a kalman-filter that combines both signals weighting each one in inverse proportion to its RMS.</p>
+<p>It&rsquo;s relatively straightforward to obtain the typical RMS noise of both sensors from their datasheets or we can get this values from experimental data. Analysing data collected from the BMA220 accelerometer we can confirm that RMS noise is ten times smaller than that of the barometer BMP180 in the same smartphone. Furthermore we have detected a zero-point error of 0.1 m/s². This states the importance of calibrating phone sensors before making any measurement. There are a lot of apps that perform this calibration proccess or you can run a calibration inside your flight app.</p>
+<p>The upper plot in the figure at the header of the article represents the altitude output of the kalman filter (red solid line) superimposed to the data got from the barometer (black line). The lower plot represents the vertical speed output of the kalman filter superimposed to the data got from the accelerometer when we lift the phone two meters from the floor at 0.5 m/s and 1 m/s. Almost perfect!</p>
+<p>However when we simulate stronger climb/descent rates arise severe inaccuracies in the accelerometer that lead to unacceptable drift in the altitude signal, and rebounds in the vertical speed signal. See the red line in the figure below.</p>
+<p><img src="/images/portfolio/kalman_fails.png" alt="kalman fails"></p>
+<p>There&rsquo;s one more problem in trusting the accelerometer so much: The centrifugal forces generated during a banked turn change the direction of the gravity force and sum to it making up an apparent load as when you are climbing.</p>
+<p>Lowering the weight of the accelerometer readings over the barometer readings we  reduce drift and rebounds at the cost of increasing noise. See the figure below.</p>
+<p><img src="/images/portfolio/kalman_fails2.png" alt="kalman fails"></p>
+<blockquote>
+<p>The blue line corresponds to the output of our lag-free algorithm. Using it we can reduce RMS noise in the vertical speed to 0.07 m/s with a fairly acceptable delay.</p>
+</blockquote>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+	<div class="footer-manu">
+	  <ul>
+            
+            <li><a href="/es/faq">Preguntas frecuentes</a></li>
+            
+            <li><a href="/es/pricing">Precios</a></li>
+            
+            <li><a href="/es/download">Descargar</a></li>
+            
+	  </ul>
+	</div>
+	<p class="copyright">Copyright © 2019 <a href="https://themefisher.com">Themefisher</a> Todos los derechos reservados</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+
+
+
+
+<script src="https://flightcomp.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/google-map/gmap.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+
+<script src="https://flightcomp.github.io/js/script.min.js"></script>
+
+
+
+</body>
+
+</html>

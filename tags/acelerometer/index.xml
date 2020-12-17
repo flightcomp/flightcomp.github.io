@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acelerometer on Airspace | Creative Agency Hugo Template</title>
+    <link>https://flightcomp.github.io/tags/acelerometer/</link>
+    <description>Recent content in Acelerometer on Airspace | Creative Agency Hugo Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 12 Sep 2018 12:52:36 +0600</lastBuildDate>
+    
+	<atom:link href="https://flightcomp.github.io/tags/acelerometer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lag-free variometer</title>
+      <link>https://flightcomp.github.io/portfolio/lag-free-variometer/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/portfolio/lag-free-variometer/</guid>
+      <description>Variometers that rely only in pressure sensor readings suffer from delays of more than 500 msg. The delay of the vario has a direct impact in pilot&amp;rsquo;s reaction time and in his learning proccess of wing reactions to thermal turbulence.</description>
+    </item>
+    
+  </channel>
+</rss>

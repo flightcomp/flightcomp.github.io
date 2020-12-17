@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Altimeter calibration</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Calibrate the altimeter with the GPS">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.69.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/scss/style.min.css" media="screen">
+
+  <!-- Custom stylesheet - for your changes -->
+  <link rel="stylesheet" href="/css/custom.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://flightcomp.github.io/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://flightcomp.github.io/images/favicon.png" type="image/x-icon">
+
+</head>
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              <img src="https://flightcomp.github.io/images/logo.png" alt="Airspace | Creative Agency Hugo Template" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              
+		<li><a href="/#body">Home</a></li>
+		
+		
+		  <li><a href="/#project">Project</a></li>	
+		
+		
+		
+		  <li><a href="/#innovations">Innovations</a></li>	
+		
+		
+		
+		  <li><a href="/#contactus">Contact</a></li>	
+		
+		
+	      
+		
+              
+              <li>
+                <select id="select-language" onchange="location = this.value;">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <option id="en" value="https://flightcomp.github.io/portfolio/altimeter-calibration/" selected>
+                    En
+                  </option>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <option id="es" value="https://flightcomp.github.io/es/portfolio/altimeter-calibration/">Es
+                  </option>
+                  
+                  
+                  
+                  
+                </select>
+              </li>
+              
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<section class="page-title bg-2" style="background-image: url('https://flightcomp.github.io/images/featue-bg-mod.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Altimeter calibration</h1>
+          <p>Calibrate the altimeter with the GPS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio-single-page section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <img class="img-responsive w-100" src="/images/portfolio/blog-post-1.jpg" alt="">
+      </div>
+      <div class="col-md-4">
+        <div class="project-details">
+          <h4>Article details</h4>
+          <ul>
+	    <li><span>Posted by:</span>
+	      
+	        <strong>Aitor Castro</strong>
+	      
+	    </li>
+	    <li><span>Tags:</span> <strong>barometer, altimeter, QNH</strong></li>
+	    <li><span>Difficulty:</span> <strong>Basic</strong></li>
+	    <li><span>Updated:</span> <strong>
+    September 12, 2018
+
+</strong></li>
+	    <li><span>Title:</span> <strong>Altimeter calibration</strong></li>
+	    <li><span>Description:</span> <strong>Calibrate the altimeter with the GPS</strong></li>
+	    
+            <li><span>Skills:</span> <strong>Statistics</strong></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-content mt-50">
+          <p>Pressure based altimeters have been relegated in favor of gnss receivers for the estimation of altitude
+mainly because they need to be calibrated with QNH. QNH can change in more than 5 hPa (50 mts) during
+the flight or between places more than 50 km apart. It should be continuously updated from
+radio weather reports. On the other hand, gnss altitude fixings suffer from loss of availability and
+measurement errors of the order of 35 meters.</p>
+<p>Will see how to merge this two sources of altitude information. The trick consists of using the highly available
+&ldquo;spike free&rdquo; pressure altitude readings adding a correction factor obtained from the difference between those
+readings and gps readings. Let&rsquo;s see how to calculate this correction factor.</p>
+<p>The formula to obtain the altitude over sea level is:</p>
+<p>$$h=\frac{T_0}{L} * \left[ 1- \left(\frac{p}{QNH}\right)^{\frac{L\cdot R}{g}}\right]$$</p>
+<p>Where p is the pressure and QNH is the atmospheric pressure adjusted to mean sea level. Both are measured in hPa. The rest are constants.</p>
+<p>With a QNH=1035 hPa at a GPS altitude of H=2000 mts. the altitude indicated by an uncalibrated altimeter (QNH = 1013.25 hPa) is h=1828.6 mts. so the average difference beween the altitude indicated by the two sensors:</p>
+<p>$$\Delta h = \sum_{i=0}^n \frac {H_i-h_i}{n}$$</p>
+<p>Will converge to the target <code>Δh=171.4 mts</code> as n increases, despite the GPS noise in altitude. The larger the noise in GPS altitude readings, the more GPS fixes we&rsquo;ll need. If Ah would depend only on QNH its rate of change would be so slow that we&rsquo;d have sufficient time (e.g. 20 minutes) to take enough GPS fixes to obtain an accurate estimation. But Δh drifts because it depends on altitude too and our glider is constantly going up and down. With the same QNH=1035 hPa at a GPS altitude of H=2500 mts. the altitude indicated by the uncalibrated altimeter would be h=2330.6 mts. so <code>Δh=169.4 mts.</code></p>
+<p>A lot of flight instuments use directly the noisy gps altitude readings. Others calculate pressure altimeter correction factor before taking off, while the altitude is constant. Sometimes the time lapse between the first satellite fix and the take-off isn&rsquo;t long enough to take sufficient gps readings to promediate and sometimes the altimeter will deviate from the correct calibration because QNH changes along the flight so at the end of the flight, if you top-land, will see that the final altitude is quite different from inital.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+	<div class="footer-manu">
+	  <ul>
+            
+            <li><a href="/faq">FAQ</a></li>
+            
+            <li><a href="/pricing">Pricing</a></li>
+            
+            <li><a href="/download">Download</a></li>
+            
+	  </ul>
+	</div>
+	<p class="copyright">Copyright © 2019 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+
+
+
+
+<script src="https://flightcomp.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/google-map/gmap.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+
+<script src="https://flightcomp.github.io/js/script.min.js"></script>
+
+
+
+</body>
+
+</html>

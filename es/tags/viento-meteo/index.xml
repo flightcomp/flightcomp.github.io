@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>viento meteo on Airspace | Creative Agency Hugo Template</title>
+    <link>https://flightcomp.github.io/es/tags/viento-meteo/</link>
+    <description>Recent content in viento meteo on Airspace | Creative Agency Hugo Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) Todos los derechos reservados</copyright>
+    <lastBuildDate>Mon, 24 Sep 2018 11:07:10 +0600</lastBuildDate>
+    
+	<atom:link href="https://flightcomp.github.io/es/tags/viento-meteo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Viento meteo</title>
+      <link>https://flightcomp.github.io/es/blog/blog-post-4/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/blog/blog-post-4/</guid>
+      <description>La app airspace utiliza las lecturas del gps durante el vuelo para calcular la intensidad y dirección del viento dominante o viento meteo. Para garantizar una mínima fiabilidad en la estimación es necesario un número mínimo de muestras en un amplio rango de direcciones de vuelo.</description>
+    </item>
+    
+    <item>
+      <title>Estimación del viento meteo</title>
+      <link>https://flightcomp.github.io/es/portfolio/meteo-wind-estimation/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/meteo-wind-estimation/</guid>
+      <description>La estimación del viento es una característica fundamental de un computador de vuelo porque es la base para la estimación de otras cantidades como el tiempo de vuelo o la altitud necesaria para llegar a una baliza.</description>
+    </item>
+    
+  </channel>
+</rss>

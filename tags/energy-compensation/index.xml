@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>energy compensation on Airspace | Creative Agency Hugo Template</title>
+    <link>https://flightcomp.github.io/tags/energy-compensation/</link>
+    <description>Recent content in energy compensation on Airspace | Creative Agency Hugo Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 12 Sep 2018 12:52:36 +0600</lastBuildDate>
+    
+	<atom:link href="https://flightcomp.github.io/tags/energy-compensation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unreliability of total energy variometer</title>
+      <link>https://flightcomp.github.io/portfolio/te-variometer/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/portfolio/te-variometer/</guid>
+      <description>The total energy variometer takes into account the dynamic energy exchanges with both horizontal and vertical motions of air. So, their indications are gathered together and delayed misleading the information necessary for the location of thermals.</description>
+    </item>
+    
+  </channel>
+</rss>

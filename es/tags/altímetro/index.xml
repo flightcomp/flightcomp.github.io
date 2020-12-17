@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>altímetro on Airspace | Creative Agency Hugo Template</title>
+    <link>https://flightcomp.github.io/es/tags/alt%C3%ADmetro/</link>
+    <description>Recent content in altímetro on Airspace | Creative Agency Hugo Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) Todos los derechos reservados</copyright>
+    <lastBuildDate>Wed, 12 Sep 2018 12:52:36 +0600</lastBuildDate>
+    
+	<atom:link href="https://flightcomp.github.io/es/tags/alt%C3%ADmetro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Calibración del altímetro</title>
+      <link>https://flightcomp.github.io/es/portfolio/altimeter-calibration/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/altimeter-calibration/</guid>
+      <description>Los sensores de presión han sido relegados en favor de los receptores gnss para estimar la altitud principalmente porque hay que calibrarlos. El QNH puede variar en más de 5 hPa (50 mts) a lo largo del día o entre lugares situados a más de 50 km.</description>
+    </item>
+    
+  </channel>
+</rss>

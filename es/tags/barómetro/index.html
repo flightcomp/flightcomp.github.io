@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es-es"><head>
+  <meta charset="utf-8">
+  <title>barómetro</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.69.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://flightcomp.github.io/scss/style.min.css" media="screen">
+
+  <!-- Custom stylesheet - for your changes -->
+  <link rel="stylesheet" href="/css/custom.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://flightcomp.github.io/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://flightcomp.github.io/images/favicon.png" type="image/x-icon">
+
+</head>
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/es">
+              <img src="https://flightcomp.github.io/images/logo.png" alt="Airspace | Creative Agency Hugo Template" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              
+		<li><a href="/es#body">Inicio</a></li>
+		
+		
+		  <li><a href="/es/#project">Proyecto</a></li>	
+		
+		
+		
+		  <li><a href="/es/#innovations">Innovations</a></li>	
+		
+		
+		
+		  <li><a href="/es/#contactus">Contacto</a></li>	
+		
+		
+	      
+		
+              
+              <li>
+                <select id="select-language" onchange="location = this.value;">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <option id="es" value="https://flightcomp.github.io/es/tags/bar%C3%B3metro/" selected>
+                    Es
+                  </option>
+                  
+                  
+                  
+                  
+                </select>
+              </li>
+              
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+  <section class="page-title bg-2" style="background-image: url('https://flightcomp.github.io/images/featue-bg-mod.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Calibración del altímetro</h1>
+          <p>Calibrar el altímetro con el GPS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio-single-page section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <img class="img-responsive w-100" src="/images/portfolio/blog-post-1.jpg" alt="">
+      </div>
+      <div class="col-md-4">
+        <div class="project-details">
+          <h4>Detalles del artículo</h4>
+          <ul>
+	    <li><span>Autor:</span>
+	      
+	        <strong>Aitor Castro</strong>
+	      
+	    </li>
+	    <li><span>Términos:</span> <strong>barómetro, altímetro, QNH</strong></li>
+	    <li><span>Dificultad:</span> <strong>Básico</strong></li>
+	    <li><span>Modificado:</span> <strong>
+    12 de Septiembre de 2018
+
+</strong></li>
+	    <li><span>Título:</span> <strong>Calibración del altímetro</strong></li>
+	    <li><span>Descripción:</span> <strong>Calibrar el altímetro con el GPS</strong></li>
+	    
+            <li><span>Habilidades:</span> <strong>Estadística</strong></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-content mt-50">
+          <p>Los sensores de presión han sido relegados en favor de los receptores gnss
+para estimar la altitud principalmente porque hay que calibrarlos. El QNH puede variar en más de 5 hPa (50 mts) a lo
+largo del día o entre lugares situados a más de 50 km. Debe ser actualizado constantemente
+a partir de los informes de radio. Por otra parte las lecturas de altitud del gps a veces no están disponibles
+y tienen errores de medida del orden de 35 metros.</p>
+<p>Veamos como combinar la información de ambos sensores. La idea es utilizar las medidas continuas y siempre disponibles del
+sensor de presión corregidas con la diferencia entre las medidas de ambos sensores. Vamos a ver como
+calcular este factor de corrección.</p>
+<p>La fórmula para obtener la altitud sobre el nivel del mar es:</p>
+<p>$$h=\frac{T_0}{L} * \left[ 1- \left(\frac{p}{QNH}\right)^{\frac{L\cdot R}{g}}\right]$$</p>
+<p>Donde p es la presión atmosférica y QNH es la presión atmosférica ajustada al nivel del mar. Ambas se miden en hectopascales (hPa). El resto son constantes.
+Con un QNH=1035 hPa a una altitud GPS de H=2000 mts. la altitud que indicaría un altímetro sin calibrar (QNH = 1013.25 hPa) sería h=1828.6 mts. así que la diferencia media entre la altitud
+indicada entre ambos sensores sería:</p>
+<p>$$\Delta h = \sum_{i=0}^n \frac {H_i-h_i}{n}$$</p>
+<p>Que converge a <code>Δh=171.4 mts</code> a medida que n aumenta, a pesar de las desviaciones del GPS en las medidas de altitud. Cuanto mayor sea el error en la medida de altitud del GPS
+más lecturas necesitaremos. Si Ah dependiera únicamente del QNH su velocidad de variación sería tan lenta que dispondríamos del tiempo suficiente (e.g. 20 minutos) para tomar las lecturas de GPS necesarias  para obtener una buena estimación. Pero Δh depende también de la altitud y nuestra aeronave está constantemente subiendo y bajando. Con el mismo QNH=1035 hPa a una altitud GPS de H=2500 mts. la altitud que marcaría el altímetro sin calibrar sería h=2330.6 mts., o sea una diferencia <code>Δh=169.4 mts.</code></p>
+<p>La mayoría de los instrumentos de vuelo utilizan directamente las ruidosas medidas de altitud del gps. Otros calculan el factor de corrección antes del despegue, mientras la altitud es constante. Puede suceder que el tiempo que pase desde que obtenemos la localización de los satélites hasta el despegue no sea suficiente para tomar suficientes lecturas de gps y/o también que el altímetro se vaya descalibrando durante el vuelo debido a cambios del QNH. El caso es que, si aterrizamos en el mismo punto de donde despegamos, observaremos diferencias entre la altura de partida y la de llegada.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+	<div class="footer-manu">
+	  <ul>
+            
+            <li><a href="/es/faq">Preguntas frecuentes</a></li>
+            
+            <li><a href="/es/pricing">Precios</a></li>
+            
+            <li><a href="/es/download">Descargar</a></li>
+            
+	  </ul>
+	</div>
+	<p class="copyright">Copyright © 2019 <a href="https://themefisher.com">Themefisher</a> Todos los derechos reservados</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+
+
+
+
+<script src="https://flightcomp.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://flightcomp.github.io/plugins/google-map/gmap.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+
+<script src="https://flightcomp.github.io/js/script.min.js"></script>
+
+
+
+</body>
+
+</html>
