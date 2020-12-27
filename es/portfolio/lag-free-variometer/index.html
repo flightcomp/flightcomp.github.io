@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es-es"><head>
   <meta charset="utf-8">
-  <title>Variómetro de bajo retardo</title>
+  <title>Variómetros y teléfonos móviles</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Variómetro de bajo retardo">
+  <meta name="description" content="Sensores barométricos">
   <meta name="author" content="Themefisher">
   <meta name="generator" content="Hugo 0.69.2" />
 
@@ -130,8 +130,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Variómetro de bajo retardo</h1>
-          <p>Variómetro de bajo retardo</p>
+          <h1>Variómetros y teléfonos móviles</h1>
+          <p>Sensores barométricos</p>
         </div>
       </div>
     </div>
@@ -153,14 +153,14 @@
 	        <strong>Aitor Castro</strong>
 	      
 	    </li>
-	    <li><span>Términos:</span> <strong>Variómetro, Acelerómetro</strong></li>
+	    <li><span>Términos:</span> <strong>Barómetro, Acelerómetro</strong></li>
 	    <li><span>Dificultad:</span> <strong>Intermedio</strong></li>
 	    <li><span>Modificado:</span> <strong>
     12 de Septiembre de 2018
 
 </strong></li>
-	    <li><span>Título:</span> <strong>Variómetro de bajo retardo</strong></li>
-	    <li><span>Descripción:</span> <strong>Variómetro de bajo retardo</strong></li>
+	    <li><span>Título:</span> <strong>Variómetros y teléfonos móviles</strong></li>
+	    <li><span>Descripción:</span> <strong>Sensores barométricos</strong></li>
 	    
             <li><span>Habilidades:</span> <strong>Teoría de control, estadística</strong></li>
             
@@ -171,27 +171,21 @@
     <div class="row">
       <div class="col-md-12">
         <div class="project-content mt-50">
-          <p>Variometers that rely only in pressure sensor readings suffer from delays of more than 500 msg. The delay of the vario has a direct impact in pilot&rsquo;s reaction time and in his learning proccess of wing reactions to thermal turbulence.</p>
-<p>As we saw in the article <a href="/es/portfolio/altimeter-calibration">calibración del altímetro</a> the formula to obtain the altitude over sea level is:</p>
-<p>$$h=\frac{T_0}{L} * \left[ 1- \left(\frac{p}{QNH}\right)^{\frac{L\cdot R}{g}}\right]$$</p>
-<p>To obtain the vertical speed we must take the derivative of the pressure signal with respect to time.</p>
-<p>$$\frac{dp}{dh}=-\frac{g}{R\cdot T} * p \to \frac{dh}{dt} = -\frac{dp}{dt} * \frac{R \cdot T}{g \cdot p}$$</p>
-<p>When used for free flight, the two most valuable features of a pressure sensor are responsiveness and precission. Newest pressure sensors improve precission in regard to oldest ones in some modes of operation because they feature an internal IIR filter that, on the other hand, reduces bandwith well below 2 Hz. For flight purposes we need at least 5 Hz of frequency bandwith and data sampling rates above 10 samples per second what makes this modes of operation unusable. Therefore we have to select a mode of operation that switches the IIR filter off worsening precission to around 25 cm (0.03 hPa). If x[n] represents the noise signal added to the true pressure at the moment nT where T is de sampling period in seconds, the derivative of the pressure readings of a static sensor would be:</p>
-<p>$$y[n]=\frac{x[n+1]-x[n]}{T}$$</p>
-<p>Assuming uncorrelated noise, the standard deviation (RMS) of the derivative signal is:</p>
-<p>$$\sigma_y=\frac {{\sqrt 2} \sigma_x}{T}$$</p>
-<p>Which in the case above gives an unacceptable RMS error of 3.53 m/s in the climb/descent rate. Low pass pre-filtering of the pressure signal before making the derivative is not an option because a low-pass filter reduces bandwith and adds delay too.</p>
-<p>Fortunately a smartphone has more sensors. One of them is a tri-axial accelerometer which detects the accelerations of the phone. We are interested in the vertical component of the acceleration after substracting gravity. We integrate this signal over time to obtain an estimation of vertical speed and integrate it once more to obtain altitude.</p>
-<p>Whereas differentiation enhances high-frequency noise, integration enhances low-frequency noise, commonly known as drift. To correct for this drift we use the sensor pressure readings. This is implemented with a kalman-filter that combines both signals weighting each one in inverse proportion to its RMS.</p>
-<p>It&rsquo;s relatively straightforward to obtain the typical RMS noise of both sensors from their datasheets or we can get this values from experimental data. Analysing data collected from the BMA220 accelerometer we can confirm that RMS noise is ten times smaller than that of the barometer BMP180 in the same smartphone. Furthermore we have detected a zero-point error of 0.1 m/s². This states the importance of calibrating phone sensors before making any measurement. There are a lot of apps that perform this calibration proccess or you can run a calibration inside your flight app.</p>
-<p>The upper plot in the figure at the header of the article represents the altitude output of the kalman filter (red solid line) superimposed to the data got from the barometer (black line). The lower plot represents the vertical speed output of the kalman filter superimposed to the data got from the accelerometer when we lift the phone two meters from the floor at 0.5 m/s and 1 m/s. Almost perfect!</p>
-<p>However when we simulate stronger climb/descent rates arise severe inaccuracies in the accelerometer that lead to unacceptable drift in the altitude signal, and rebounds in the vertical speed signal. See the red line in the figure below.</p>
-<p><img src="/images/portfolio/kalman_fails.png" alt="kalman fails"></p>
-<p>There&rsquo;s one more problem in trusting the accelerometer so much: The centrifugal forces generated during a banked turn change the direction of the gravity force and sum to it making up an apparent load as when you are climbing.</p>
-<p>Lowering the weight of the accelerometer readings over the barometer readings we  reduce drift and rebounds at the cost of increasing noise. See the figure below.</p>
-<p><img src="/images/portfolio/kalman_fails2.png" alt="kalman fails"></p>
+          <p>Hay mucha gente que asegura que no es viable utilizar el sensor barométirico de un teléfono móvil para vuelo libre. No se puede negar que estos sensores no están diseñados para ese fin y tienen un nivel de ruido muy alto. Estamos hablando de desviaciones en torno a los (0.03 hPa) que traducidas a altitudes nos dan una desviación media en torno a los 25 cm. Hay que tener en cuenta que para calcular la velocidad vertical tenemos que hacer la derivada de esta señal respecto al tiempo. Si suponemos que el sensor trabaja a una velocidad de 10 muestras por segundo, el ruido en la señal de altitud obtenida a partir de él sería 3.53 m/s que es inaceptable en un instrumento de vuelo libre.</p>
+<p>$$\sigma_y=\frac {{\sqrt 2} \sigma_x}{T}=\frac {{\sqrt 2} * 0.25 m}{0.1 sg}=3.53 m/s $$</p>
+<p>Suavizar la señal del barómetro reduciría algo el nivel de ruido y mejoraría la precisión pero a costa de disminuir la rapidez de respuesta, por tanto no es una solución.</p>
 <blockquote>
-<p>The blue line corresponds to the output of our lag-free algorithm. Using it we can reduce RMS noise in the vertical speed to 0.07 m/s with a fairly acceptable delay.</p>
+<p>También es cierto que los teléfonos móviles tienen un acelerómetro y combinando adecuadamente las medidas de ambos sensores podemos alcanzar prestaciones, en cuanto a sensibilidad y precisión similares a las de un variómetro de vuelo libre.</p>
+</blockquote>
+<p>Como seguramente no os lo creeréis os propongo que le echéis un vistazo al siguiente video. En el se comparan la precisión y el retardo de tres teléfonos android con sensor de presión integrado y un módulo de vuelo libre con un sensor barométrico de muy bajo nivel de ruido como es el Bluefly vario. En todos se usa la app Acoustic variometer. Los pitidos cortos de esta aplicación indican que el teléfono está quieto, es lo que en vuelo libre llamamos un cero. Cuando levantamos el teléfono más de 25 cm empezamos a oir los sonidos del vario y cuando lo bajamos se silencia. Subid el volumen en la primera parte del video porque el primer teléfono tiene el volumen muy bajo y el vario apenas se oye.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/q6YODsH0oMA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>Podréis comprobar que utilizando el barómetro interno y la app Acoustic variometer la precisión y el retardo son muy similares a los obtenidos con el Bluefly salvo con el Samsung galaxy S4. Cuando utilizamos su sensor interno los sonidos del vario son erráticos. Ni siquiera calibrando el acelerómetro que, por cierto presenta un error considerable, podemos mejorar su respuesta. Aunque es 3 años más reciente que el Samsung Galaxy Nexus funciona mucho peor porque en el año 2001 Samsung cambió de fabricante de sensores barométricos de sus teléfonos sustituyendo a Bosch por STMicroelectronics.</p>
+<blockquote>
+<p>Así que para la pregunta: ¿Puede servir un teléfono móvil como variómetro para vuelo libre? La respuesta es&hellip; DEPENDE DEL TELÉFONO</p>
 </blockquote>
 
         </div>

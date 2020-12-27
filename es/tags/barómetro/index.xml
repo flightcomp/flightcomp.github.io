@@ -21,5 +21,14 @@
       <description>Los sensores de presión han sido relegados en favor de los receptores gnss para estimar la altitud principalmente porque hay que calibrarlos. El QNH puede variar en más de 5 hPa (50 mts) a lo largo del día o entre lugares situados a más de 50 km.</description>
     </item>
     
+    <item>
+      <title>Variómetros y teléfonos móviles</title>
+      <link>https://flightcomp.github.io/es/portfolio/lag-free-variometer/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/lag-free-variometer/</guid>
+      <description>Hay mucha gente que asegura que no es viable utilizar el sensor barométirico de un teléfono móvil para vuelo libre. No se puede negar que estos sensores no están diseñados para ese fin y tienen un nivel de ruido muy alto.</description>
+    </item>
+    
   </channel>
 </rss>

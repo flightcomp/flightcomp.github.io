@@ -103,12 +103,12 @@
     </item>
     
     <item>
-      <title>Variómetro de bajo retardo</title>
+      <title>Variómetros y teléfonos móviles</title>
       <link>https://flightcomp.github.io/es/portfolio/lag-free-variometer/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/portfolio/lag-free-variometer/</guid>
-      <description>Variometers that rely only in pressure sensor readings suffer from delays of more than 500 msg. The delay of the vario has a direct impact in pilot&amp;rsquo;s reaction time and in his learning proccess of wing reactions to thermal turbulence.</description>
+      <description>Hay mucha gente que asegura que no es viable utilizar el sensor barométirico de un teléfono móvil para vuelo libre. No se puede negar que estos sensores no están diseñados para ese fin y tienen un nivel de ruido muy alto.</description>
     </item>
     
     <item>
