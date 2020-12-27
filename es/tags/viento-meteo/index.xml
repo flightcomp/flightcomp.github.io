@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) Todos los derechos reservados</copyright>
-    <lastBuildDate>Mon, 24 Sep 2018 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 22 Sep 2018 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://flightcomp.github.io/es/tags/viento-meteo/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Viento meteo</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-4/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Sat, 22 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-4/</guid>
       <description>La app airspace utiliza las lecturas del gps durante el vuelo para calcular la intensidad y dirección del viento dominante o viento meteo. Para garantizar una mínima fiabilidad en la estimación es necesario un número mínimo de muestras en un amplio rango de direcciones de vuelo.</description>

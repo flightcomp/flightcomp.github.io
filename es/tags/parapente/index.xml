@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) Todos los derechos reservados</copyright>
-    <lastBuildDate>Mon, 24 Sep 2018 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 25 Sep 2018 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://flightcomp.github.io/es/tags/parapente/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Introducción</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-1/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-1/</guid>
       <description>La app airspace es una aplicación de vuelo libre¹ compleja que convierte un teléfono móvil o tablet android en un instrumento de vuelo preciso y fiable capaz de guiarte en tus vuelos de XC.</description>

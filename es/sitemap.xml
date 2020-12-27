@@ -33,43 +33,28 @@
   </url>
   
   <url>
-    <loc>https://flightcomp.github.io/es/tags/advice/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+    <loc>https://flightcomp.github.io/es/privacy-policy/</loc>
+    <lastmod>2019-12-23T13:05:29+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://flightcomp.github.io/tags/advice/"
+                href="https://flightcomp.github.io/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://flightcomp.github.io/es/tags/advice/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://flightcomp.github.io/es/tags/ai/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://flightcomp.github.io/tags/ai/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://flightcomp.github.io/es/tags/ai/"
+                href="https://flightcomp.github.io/es/privacy-policy/"
                 />
   </url>
   
   <url>
     <loc>https://flightcomp.github.io/es/tags/ala-delta/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+    <lastmod>2018-09-25T11:07:10+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://flightcomp.github.io/es/tags/android/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+    <lastmod>2018-09-25T11:07:10+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -84,21 +69,76 @@
   
   <url>
     <loc>https://flightcomp.github.io/es/tags/blueflyvario/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+    <lastmod>2018-09-25T11:07:10+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://flightcomp.github.io/es/tags/company/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+    <loc>https://flightcomp.github.io/es/blog/blog-post-1/</loc>
+    <lastmod>2018-09-25T11:07:10+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://flightcomp.github.io/tags/company/"
+                href="https://flightcomp.github.io/blog/blog-post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://flightcomp.github.io/es/tags/company/"
+                href="https://flightcomp.github.io/es/blog/blog-post-1/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://flightcomp.github.io/es/blog/</loc>
+    <lastmod>2018-09-25T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://flightcomp.github.io/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://flightcomp.github.io/es/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://flightcomp.github.io/es/tags/parapente/</loc>
+    <lastmod>2018-09-25T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://flightcomp.github.io/es/tags/</loc>
+    <lastmod>2018-09-25T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://flightcomp.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://flightcomp.github.io/es/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://flightcomp.github.io/es/tags/vari%C3%B3metro/</loc>
+    <lastmod>2018-09-25T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://flightcomp.github.io/es/tags/advice/</loc>
+    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://flightcomp.github.io/tags/advice/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://flightcomp.github.io/es/tags/advice/"
                 />
   </url>
   
@@ -118,101 +158,6 @@
   </url>
   
   <url>
-    <loc>https://flightcomp.github.io/es/blog/blog-post-3/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://flightcomp.github.io/blog/blog-post-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://flightcomp.github.io/es/blog/blog-post-3/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://flightcomp.github.io/es/blog/blog-post-5/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://flightcomp.github.io/blog/blog-post-5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://flightcomp.github.io/es/blog/blog-post-5/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://flightcomp.github.io/es/blog/blog-post-6/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://flightcomp.github.io/blog/blog-post-6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://flightcomp.github.io/es/blog/blog-post-6/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://flightcomp.github.io/es/blog/blog-post-1/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://flightcomp.github.io/blog/blog-post-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://flightcomp.github.io/es/blog/blog-post-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://flightcomp.github.io/es/blog/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://flightcomp.github.io/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://flightcomp.github.io/es/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://flightcomp.github.io/es/tags/news/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://flightcomp.github.io/tags/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://flightcomp.github.io/es/tags/news/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://flightcomp.github.io/es/tags/parapente/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://flightcomp.github.io/es/tags/retro/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
     <xhtml:link
@@ -228,28 +173,23 @@
   </url>
   
   <url>
-    <loc>https://flightcomp.github.io/es/tags/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+    <loc>https://flightcomp.github.io/es/blog/blog-post-3/</loc>
+    <lastmod>2018-09-23T11:07:10+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://flightcomp.github.io/tags/"
+                href="https://flightcomp.github.io/blog/blog-post-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://flightcomp.github.io/es/tags/"
+                href="https://flightcomp.github.io/es/blog/blog-post-3/"
                 />
   </url>
   
   <url>
-    <loc>https://flightcomp.github.io/es/tags/vari%C3%B3metro/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://flightcomp.github.io/es/blog/blog-post-4/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+    <lastmod>2018-09-22T11:07:10+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -264,7 +204,82 @@
   
   <url>
     <loc>https://flightcomp.github.io/es/tags/viento-meteo/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+    <lastmod>2018-09-22T11:07:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://flightcomp.github.io/es/tags/ai/</loc>
+    <lastmod>2018-09-21T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://flightcomp.github.io/tags/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://flightcomp.github.io/es/tags/ai/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://flightcomp.github.io/es/blog/blog-post-5/</loc>
+    <lastmod>2018-09-21T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://flightcomp.github.io/blog/blog-post-5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://flightcomp.github.io/es/blog/blog-post-5/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://flightcomp.github.io/es/tags/company/</loc>
+    <lastmod>2018-09-20T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://flightcomp.github.io/tags/company/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://flightcomp.github.io/es/tags/company/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://flightcomp.github.io/es/blog/blog-post-6/</loc>
+    <lastmod>2018-09-20T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://flightcomp.github.io/blog/blog-post-6/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://flightcomp.github.io/es/blog/blog-post-6/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://flightcomp.github.io/es/tags/news/</loc>
+    <lastmod>2018-09-20T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://flightcomp.github.io/tags/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://flightcomp.github.io/es/tags/news/"
+                />
   </url>
   
   <url>

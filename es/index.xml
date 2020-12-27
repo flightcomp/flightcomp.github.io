@@ -13,27 +13,45 @@
     
     
     <item>
-      <title>How To Wear Bright Shoes</title>
+      <title>Introducción</title>
+      <link>https://flightcomp.github.io/es/blog/blog-post-1/</link>
+      <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/blog/blog-post-1/</guid>
+      <description>La app airspace es una aplicación de vuelo libre¹ compleja que convierte un teléfono móvil o tablet android en un instrumento de vuelo preciso y fiable capaz de guiarte en tus vuelos de XC.</description>
+    </item>
+    
+    <item>
+      <title>Idiomas</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-2/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-2/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+      <description>La pantalla del dispositivo debería ir apagada de modo que la comunicación de la aplicación con el piloto se lleva a cabo por medio de los tonos del vario y mensajes vocales.</description>
     </item>
     
     <item>
       <title>How To Wear Bright Shoes</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-3/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Sun, 23 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-3/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
     </item>
     
     <item>
+      <title>Viento meteo</title>
+      <link>https://flightcomp.github.io/es/blog/blog-post-4/</link>
+      <pubDate>Sat, 22 Sep 2018 11:07:10 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/blog/blog-post-4/</guid>
+      <description>La app airspace utiliza las lecturas del gps durante el vuelo para calcular la intensidad y dirección del viento dominante o viento meteo. Para garantizar una mínima fiabilidad en la estimación es necesario un número mínimo de muestras en un amplio rango de direcciones de vuelo.</description>
+    </item>
+    
+    <item>
       <title>How To Wear Bright Shoes</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-5/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Fri, 21 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-5/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
@@ -42,28 +60,10 @@
     <item>
       <title>How To Wear Bright Shoes</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-6/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Thu, 20 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-6/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
-    </item>
-    
-    <item>
-      <title>Introducción</title>
-      <link>https://flightcomp.github.io/es/blog/blog-post-1/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
-      <guid>https://flightcomp.github.io/es/blog/blog-post-1/</guid>
-      <description>La app airspace es una aplicación de vuelo libre¹ compleja que convierte un teléfono móvil o tablet android en un instrumento de vuelo preciso y fiable capaz de guiarte en tus vuelos de XC.</description>
-    </item>
-    
-    <item>
-      <title>Viento meteo</title>
-      <link>https://flightcomp.github.io/es/blog/blog-post-4/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
-      <guid>https://flightcomp.github.io/es/blog/blog-post-4/</guid>
-      <description>La app airspace utiliza las lecturas del gps durante el vuelo para calcular la intensidad y dirección del viento dominante o viento meteo. Para garantizar una mínima fiabilidad en la estimación es necesario un número mínimo de muestras en un amplio rango de direcciones de vuelo.</description>
     </item>
     
     <item>

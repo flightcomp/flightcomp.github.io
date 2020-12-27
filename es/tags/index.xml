@@ -7,33 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) Todos los derechos reservados</copyright>
-    <lastBuildDate>Mon, 24 Sep 2018 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 25 Sep 2018 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://flightcomp.github.io/es/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Advice</title>
-      <link>https://flightcomp.github.io/es/tags/advice/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
-      <guid>https://flightcomp.github.io/es/tags/advice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AI</title>
-      <link>https://flightcomp.github.io/es/tags/ai/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
-      <guid>https://flightcomp.github.io/es/tags/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ala delta</title>
       <link>https://flightcomp.github.io/es/tags/ala-delta/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/tags/ala-delta/</guid>
       <description></description>
@@ -42,7 +24,7 @@
     <item>
       <title>android</title>
       <link>https://flightcomp.github.io/es/tags/android/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/tags/android/</guid>
       <description></description>
@@ -51,36 +33,36 @@
     <item>
       <title>blueflyvario</title>
       <link>https://flightcomp.github.io/es/tags/blueflyvario/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/tags/blueflyvario/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Company</title>
-      <link>https://flightcomp.github.io/es/tags/company/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
-      <guid>https://flightcomp.github.io/es/tags/company/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>News</title>
-      <link>https://flightcomp.github.io/es/tags/news/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
-      <guid>https://flightcomp.github.io/es/tags/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>parapente</title>
       <link>https://flightcomp.github.io/es/tags/parapente/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/tags/parapente/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>variómetro</title>
+      <link>https://flightcomp.github.io/es/tags/vari%C3%B3metro/</link>
+      <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/tags/vari%C3%B3metro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advice</title>
+      <link>https://flightcomp.github.io/es/tags/advice/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/tags/advice/</guid>
       <description></description>
     </item>
     
@@ -94,20 +76,38 @@
     </item>
     
     <item>
-      <title>variómetro</title>
-      <link>https://flightcomp.github.io/es/tags/vari%C3%B3metro/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <title>viento meteo</title>
+      <link>https://flightcomp.github.io/es/tags/viento-meteo/</link>
+      <pubDate>Sat, 22 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://flightcomp.github.io/es/tags/vari%C3%B3metro/</guid>
+      <guid>https://flightcomp.github.io/es/tags/viento-meteo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>viento meteo</title>
-      <link>https://flightcomp.github.io/es/tags/viento-meteo/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <title>AI</title>
+      <link>https://flightcomp.github.io/es/tags/ai/</link>
+      <pubDate>Fri, 21 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://flightcomp.github.io/es/tags/viento-meteo/</guid>
+      <guid>https://flightcomp.github.io/es/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Company</title>
+      <link>https://flightcomp.github.io/es/tags/company/</link>
+      <pubDate>Thu, 20 Sep 2018 11:07:10 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/tags/company/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://flightcomp.github.io/es/tags/news/</link>
+      <pubDate>Thu, 20 Sep 2018 11:07:10 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/tags/news/</guid>
       <description></description>
     </item>
     

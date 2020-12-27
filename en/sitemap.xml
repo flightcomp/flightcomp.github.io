@@ -33,6 +33,21 @@
   </url>
   
   <url>
+    <loc>https://flightcomp.github.io/privacy-policy/</loc>
+    <lastmod>2020-03-23T13:05:29+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://flightcomp.github.io/es/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://flightcomp.github.io/privacy-policy/"
+                />
+  </url>
+  
+  <url>
     <loc>https://flightcomp.github.io/tags/advice/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
     <xhtml:link
