@@ -155,7 +155,7 @@
       </div>
       <div class="col-md-8">
         <h3 id="información-que-recogemos-y-uso-que-hacemos-de-ella">Información que recogemos y uso que hacemos de ella</h3>
-<p>Nuestro sitio web y nuestra app ni solicitan ni recogen información personal de ningún tipo.</p>
+<p>Nuestro sitio web no solicitan ni recoge información personal de ningún tipo. Nuestra app recopila los datos de ubicación del gps de tu dispositivo y los almacena en un fichero con extensión .igc en la carpeta io.github.flightcomp del dispositivo. Cuando cierres la aplicación o la pongas en modo standby el fichero se cierra y la app deja de grabar. El uso que hagas de él es responsabilidad tuya. La aplicación no volverá a acceder a él en ningún caso. Puedes desactivar esta característica apagando el gps o denegando el acceso de la aplicación a los datos de ubicación mientras está en uso. Ver apartado siguiente.</p>
 <h3 id="permisos-solicitados-por-la-app">Permisos solicitados por la app</h3>
 <p>Nuestra app, con el fin de proporcionar el mejor servicio posible, solicita una serie de permisos del usuario. Cualquiera de estos permisos puede ser revocado por el usuario en cualquier momento con la consecuente pérdida de las funcionalidades asociadas.</p>
 <ul>
@@ -183,7 +183,7 @@
 <p>Permiso para gestionar la conexión bluetooth. Es imprescindible para poder conectar el dispositivo con un barómetro externo como el BlueFly.</p>
 </li>
 <li>
-<p>Permiso para crear un servicio en segundo plano. La aplicación sigue funcionando con la pantalla apagada y es menos propensa a fallos.</p>
+<p>Permiso para crear un servicio en primer plano. La aplicación sigue funcionando con la pantalla apagada y es menos propensa a ser cerrada por el sistema operativo Android en caso de escasez de recursos.</p>
 </li>
 <li>
 <p>Acceso al almacenamiento. Los ficheros de balizas, el track del vuelo y las tareas de competición se almacenan en la carpeta io.github.flightcomp en el disco ssd del dispositivo para que puedan ser leídos y generados desde otras aplicaciones si lo desea. Por ejemplo visualizar el track del vuelo con la aplicación IGCBrowser. Sin este permiso la aplicación no dispondrá de funciones de navegación ni se podrá guardar el track del vuelo.</p>

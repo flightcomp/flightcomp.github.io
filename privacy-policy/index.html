@@ -155,7 +155,7 @@
       </div>
       <div class="col-md-8">
         <h4 id="information-collection-and-use">Information Collection and Use</h4>
-<p>Our web site and our app don&rsquo;t ask for or collect any kind of personal information.</p>
+<p>Our website does not request or collect personal information of any kind. Our app collects your device&rsquo;s gps location data and stores it in a file with an .igc extension in the io.github.flightcomp folder on your device. When you close the application or put it in standby mode the file is closed and the app stops recording. The use you make of it is your responsibility. The application will not access it again in any case. You can disable this feature by turning off the gps or denying the application access to location data while in use. See next section.</p>
 <h4 id="app-permissions">App permissions</h4>
 <p>With the intent to offer the best service, our app asks the user for this permissions. Any of these permissions can be revoked by the user at any time with the consequent loss of the associated functionalities.</p>
 <ul>
@@ -183,10 +183,10 @@
 <p>Permission to manage bluetooth connections in case you want to connect to an external module like Bluefly.</p>
 </li>
 <li>
-<p>Permission to create a background service. The app can run with the screen off and is less prone to fail.</p>
+<p>Permission to create a foreground service. The app can run with the screen off and is less prone to be closed by the Android OS in case of resource depletion.</p>
 </li>
 <li>
-<p>Permission to access storage. Waypoint files, flight tracks and flight tasks are stored in the folder io.github.flightcom of your device so they can be read and stored by oter apps if you want. Read your flight records with the app IGCBrowser, for example. Withount it the navigation function are disabled and the flight won&rsquo;t be recorded.</p>
+<p>Permission to access storage. Waypoint files, flight tracks and flight tasks are stored in the folder io.github.flightcom of your device so they can be read and stored by other apps if you want. Read your flight records with the app IGCBrowser, for example. Withount it the navigation function are disabled and the flight won&rsquo;t be recorded.</p>
 </li>
 </ul>
 <h4 id="cookies">Cookies</h4>
