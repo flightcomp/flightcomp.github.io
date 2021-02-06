@@ -155,9 +155,9 @@
       </div>
       <div class="col-md-8">
         <h4 id="information-collection-and-use">Information Collection and Use</h4>
-<p>Our website does not request or collect personal information of any kind. Our app collects your device&rsquo;s gps location data and stores it in a file with an .igc extension in the io.github.flightcomp folder on your device. When you close the application or put it in standby mode the file is closed and the app stops recording. The use you make of it is your responsibility. The application will not access it again in any case. You can disable this feature by turning off the gps or denying the application access to location data while in use. See next section.</p>
+<p>Our website does not request or collect personal information of any kind. Our app collects your location data and stores it in a file with .igc extension in the io.github.flightcomp/trks folder of your device. When you close the application or put it in standby mode this file is closed and the app stops tracking your location. The application won&rsquo;t access this file again. You can prevent the app from tracking your flight by just turning off location in your device google preferences or denying the access from the app. See next section. In any case the app will track your location while not in use.</p>
 <h4 id="app-permissions">App permissions</h4>
-<p>With the intent to offer the best service, our app asks the user for this permissions. Any of these permissions can be revoked by the user at any time with the consequent loss of the associated functionalities.</p>
+<p>Since Android Marshmallow some actions need explicit permission from the user. With the intent to offer the best service, our app asks the user for these permissions. Any of these permissions can be revoked by the user at any time with the consequent loss of the associated functionalities.</p>
 <ul>
 <li>
 <p>Permission to know the exact location: This permission is required in order to provide high value-added functionalities as:</p>
@@ -172,7 +172,7 @@
 <p>Flight track recording.</p>
 </li>
 <li>
-<p>Best glide speed control.</p>
+<p>Best glide, speed control.</p>
 </li>
 <li>
 <p>Final glide assistant.</p>
@@ -186,12 +186,15 @@
 <p>Permission to create a foreground service. The app can run with the screen off and is less prone to be closed by the Android OS in case of resource depletion.</p>
 </li>
 <li>
-<p>Permission to access storage. Waypoint files, flight tracks and flight tasks are stored in the folder io.github.flightcom of your device so they can be read and stored by other apps if you want. Read your flight records with the app IGCBrowser, for example. Withount it the navigation function are disabled and the flight won&rsquo;t be recorded.</p>
+<p>Permission to access storage. Waypoint files, flight tracks and flight tasks are stored in the folder io.github.flightcom of your device so they can be read/wrote by other apps. For example: Use an IGC file reader app to view your flights. Without this permission, the navigation function will be disabled and the flights won&rsquo;t be recorded.</p>
+</li>
+<li>
+<p>Permission to bypass battery optimizations. Granting this permission to the app you avoid the phone entering in doze mode while the app is running.</p>
 </li>
 </ul>
 <h4 id="cookies">Cookies</h4>
 <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device&rsquo;s internal memory.</p>
-<p>This website does not use these “cookies”.</p>
+<p>This website does not use “cookies”.</p>
 <h4 id="advertising">Advertising.</h4>
 <p>Our web site and our app don&rsquo;t show ads.</p>
 <h4 id="links-to-other-sites">Links to Other Sites</h4>

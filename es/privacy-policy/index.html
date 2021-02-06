@@ -155,12 +155,12 @@
       </div>
       <div class="col-md-8">
         <h3 id="información-que-recogemos-y-uso-que-hacemos-de-ella">Información que recogemos y uso que hacemos de ella</h3>
-<p>Nuestro sitio web no solicitan ni recoge información personal de ningún tipo. Nuestra app recopila los datos de ubicación del gps de tu dispositivo y los almacena en un fichero con extensión .igc en la carpeta io.github.flightcomp del dispositivo. Cuando cierres la aplicación o la pongas en modo standby el fichero se cierra y la app deja de grabar. El uso que hagas de él es responsabilidad tuya. La aplicación no volverá a acceder a él en ningún caso. Puedes desactivar esta característica apagando el gps o denegando el acceso de la aplicación a los datos de ubicación mientras está en uso. Ver apartado siguiente.</p>
+<p>Nuestro sitio web no solicita ni recoge información personal de ningún tipo. Nuestra app recopila los datos de la ubicación de tu dispositivo y los almacena en un fichero con extensión .igc en la carpeta io.github.flightcomp/trks del dispositivo. Cuando cierre la aplicación o la ponga en modo standby el fichero se cierra y la app deja de grabar. La aplicación no volverá a acceder a este fichero. Puede desactivar esta característica apagando el servicio de localización de google o denegando el acceso de la aplicación a los datos de ubicación mientras está en uso. Ver apartado siguiente. En ningún caso la aplicación recopilará datos de su ubicación mientras no esté usándola.</p>
 <h3 id="permisos-solicitados-por-la-app">Permisos solicitados por la app</h3>
-<p>Nuestra app, con el fin de proporcionar el mejor servicio posible, solicita una serie de permisos del usuario. Cualquiera de estos permisos puede ser revocado por el usuario en cualquier momento con la consecuente pérdida de las funcionalidades asociadas.</p>
+<p>Desde la versión Marshmallow de Android es necesario solicitar determinados permisos al usuario de manera explícita. Nuestra app, con el fin de proporcionar el mejor servicio posible, solicita al usuario estos permisos. Cualquiera de ellos puede ser revocado por el usuario en cualquier momento con la consecuente pérdida de las funcionalidades asociadas.</p>
 <ul>
 <li>
-<p>Permiso para conocer la ubicación exacta: Este permiso es imprescindibe para poder ofrecer funcionalidades de alto valor añadido:</p>
+<p>Permiso para conocer la ubicación exacta: Este permiso es imprescindible para poder ofrecer funcionalidades de alto valor añadido:</p>
 <ul>
 <li>
 <p>Cálculo de la velocidad y dirección del viento</p>
@@ -186,18 +186,21 @@
 <p>Permiso para crear un servicio en primer plano. La aplicación sigue funcionando con la pantalla apagada y es menos propensa a ser cerrada por el sistema operativo Android en caso de escasez de recursos.</p>
 </li>
 <li>
-<p>Acceso al almacenamiento. Los ficheros de balizas, el track del vuelo y las tareas de competición se almacenan en la carpeta io.github.flightcomp en el disco ssd del dispositivo para que puedan ser leídos y generados desde otras aplicaciones si lo desea. Por ejemplo visualizar el track del vuelo con la aplicación IGCBrowser. Sin este permiso la aplicación no dispondrá de funciones de navegación ni se podrá guardar el track del vuelo.</p>
+<p>Acceso al almacenamiento. Los ficheros de balizas, el track del vuelo y las tareas de competición se almacenan en la carpeta io.github.flightcomp en la memoria interna del dispositivo para que puedan ser leídos y generados desde otras aplicaciones. Por ejemplo podría visualizar el track del vuelo con una aplicación capaz de abrir ficheros .igc. Sin este permiso la aplicación no dispondrá de funciones de navegación ni se podrá guardar el track del vuelo.</p>
+</li>
+<li>
+<p>Permiso para saltarse las restricciones de consumo de batería. De esta manera evitará que su dispositivo entre en modo bajo consumo mientras la aplicación está ejecutándose.</p>
 </li>
 </ul>
 <h3 id="cookies">Cookies</h3>
-<p>Una cookie se refiere a un fichero que es enviado con la finalidad de solicitar permiso para almacenarse en su ordenador, al aceptar dicho fichero se crea y la cookie sirve entonces para tener información respecto al tráfico web, y también facilita las futuras visitas a una web recurrente. Otra función que tienen las cookies es que con ellas las web pueden reconocerte individualmente y por tanto brindarte el mejor servicio personalizado de su web.</p>
+<p>Una cookie es un fichero que se almacena en su ordenador, dicho fichero sirve para recopilar estadísticas de uso web. Otra función que tienen las cookies es que con ellas las web pueden reconocerle individualmente y por tanto brindarle el mejor servicio personalizado de su web.</p>
 <p>Nuestro sitio web no emplea cookies.</p>
 <h3 id="anuncios">Anuncios</h3>
 <p>Nuestro sitio web y nuestra app no muestran anuncios.</p>
 <h3 id="enlaces-a-terceros">Enlaces a Terceros</h3>
-<p>Este sitio web pudiera contener en laces a otros sitios que pudieran ser de su interés. Una vez que usted de clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es redirigido y por lo tanto no somos responsables de los términos o privacidad ni de la protección de sus datos en esos otros sitios terceros. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es recomendable que los consulte para confirmar que usted está de acuerdo con estas.</p>
+<p>Este sitio web pudiera contener enlaces a otros sitios que pudieran ser de su interés. Una vez que usted haga click en estos enlaces y abandone nuestra página, ya no tenemos control sobre el sitio al que es redirigido y por lo tanto no somos responsables de los términos de privacidad ni de la protección de sus datos en dichos sitios. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es recomendable que las consulte para confirmar que usted está de acuerdo con ellas.</p>
 <h3 id="cambios-en-la-política-de-privacidad">Cambios en la política de privacidad</h3>
-<p>Aitor Castro se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento. Por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.</p>
+<p>Aitor Castro se reserva el derecho a cambiar los términos de la presente Política de Privacidad en cualquier momento. Por lo que le recomendamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.</p>
 
       </div>
     </div>
