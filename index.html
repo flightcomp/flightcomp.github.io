@@ -64,15 +64,15 @@
 		<li class="nav-item"><a href="#body" class="nav-link">Home</a></li>
 		
 		
-		  <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>	
+		  <li class="nav-item"><a href="#contact" class="nav-link">Download</a></li>	
+		
+		
+		
+		  <li class="nav-item"><a href="#manual" class="nav-link">Manual</a></li>	
 		
 		
 		
 		  <li class="nav-item"><a href="#innovations" class="nav-link">Innovations</a></li>	
-		
-		
-		
-		  <li class="nav-item"><a href="#contactus" class="nav-link">Contact</a></li>	
 		
 		
 	      
@@ -134,10 +134,10 @@
       <div class="col-md-12">
         <div class="block">
           <h1>Smart glide computer</h1>
-          <p>A smart glide computer gives the pilot only the information he needs when he needs, leaving him to concentrate on decision-making</p>
+          <p>Convert your phone into a reliable, accurate and user-friendly flight instrument</p>
           
           
-          <a href="#project" class="btn btn-main animated fadeInUp page-scroll">Discover Our Project</a>
+          <a href="#manual" class="btn btn-main animated fadeInUp page-scroll">App manual</a>
           
           
         </div>
@@ -146,6 +146,65 @@
   </div>
 </section>
 
+
+
+
+
+
+
+<section id="contact" class="contact-form">
+  <div class="container">
+    <div class="contact-box row">
+      <div class="col-md-6 col-sm-12">
+		<a href="https://play.google.com/apps/internaltest/4699747789704889231"><img class="center-block" src="/images/get_it_on_play_logo_large.png" alt="" width="172" align="center"></a>
+		<div class="block">
+		  <h2>Contact</h2>
+          <ul class="address-block">
+            
+			
+            <li><i class="ion-ios-email-outline"></i>Email: theairdroid1@gmail.com</li>
+          </ul>
+          <ul class="social-icons">
+            
+            <li><a href="https://www.youtube.com/channel/UC8MDwUD8B0N_zlSyOYAHBQQ"><i class="ion-social-youtube-outline"></i></a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+          <div class="block">
+            <div class="form-group-2">
+			  <img class="img-responsive" src="/images/calltoaction.jpg" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section id="manual" class="call-to-action bg-1 section-sm overly" style="background-image: url('https://flightcomp.github.io/images/featue-bg-mod.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>User Manual</h2>
+          <p>The philosophy behind this app is to replace the visual interaction with your device by audible interaction made of sounds and voice messages.</p>
+          
+          
+          <a class="btn btn-main btn-solid-border page-scroll" href="#innovations">Innovations</a>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -169,7 +228,7 @@
 
         
         <div class="post post-single">
-	  <h2 class="post-title">Altimeter calibration</h2>
+	  <h2 class="post-title">App install prerrequisites</h2>
       	  <div class="post-meta">
 	      <ul>
 		<li><i class="ion-calendar"></i> 
@@ -178,34 +237,20 @@
 </li>
 		<li><i class="ion-pricetags"></i> 
 		  
-		  <a href="/tags/advice">Advice</a>
+		  <a href="/tags/android-app">Android app</a>
 		  
-		  , <a href="/tags/technology">Technology</a>
-		  
-		  , <a href="/tags/cosa-rica">Cosa rica</a>
+		  , <a href="/tags/acoustic-variometer">Acoustic variometer</a>
 		  
 		</li>
     	      </ul>
 	  </div>
 	  <div class="post-thumb">
-	    <img class="img-responsive" src="/images/blog/blog-post-1-mod.jpg" alt="Altimeter calibration">
+	    <img class="img-responsive" src="/images/blog/tts_english.jpg" alt="App install prerrequisites">
 	  </div>
 	  <div class="post-content post-excerpt">
-	    <p>Pressure based altimeters have been relegated in favor of gnss receivers for the estimation of altitude
-mainly because they need to be calibrated with QNH. QNH can change in more than 5 hPa (50 mts.) during
-the flight or between places more than 50 km apart, so it should be continuously updated from
-radio weather reports. On the other hand, gnss altitude fixings suffer from loss of availability and
-measurement errors of the order of 35 meters.<!-- raw HTML omitted --></p>
-<p>Will see how to merge this two sources of altitude information. The trick consists of using the highly available
-&ldquo;spike free&rdquo; pressure altitude readings adding a correction factor obtained from the difference between those
-readings and gps readings. Let&rsquo;s see how to calculate this correction factor.<!-- raw HTML omitted --></p>
-<p>The formula to obtain the altitude over sea level is derived from the equation: <!-- raw HTML omitted --></p>
-<p>$$h=-\frac{T_0}{L} * \left[ 1- \left(\frac{p}{QNH}\right)^{-\frac{L*R}{g}}\right]$$ <!-- raw HTML omitted --></p>
-<p>Where p is the pressure and QNH is the atmospheric pressure adjusted to mean sea level. Both are measured in hPa. The rest are constants.</p>
-<p>With a QNH=1035 hPa at a GPS altitude of H=2000 mts. the altitude indicated by an uncalibrated altimeter (QNH = 1013.25 hPa) is h=1828.6 mts. so the average of the difference beween the altitude indicated by the two sensors:<!-- raw HTML omitted --></p>
-<p>$$\Delta h = \sum_{i=0}^n \frac {H_i-h_i}{n}$$<!-- raw HTML omitted --></p>
-<p>Will converge to the target <!-- raw HTML omitted -->Δh=171.4 mts<!-- raw HTML omitted --> as n increases, despite the GPS noise in altitude. The larger the noise in GPS altitude readings the more GPS fixes we&rsquo;ll need. If Ah would depend only on QNH its rate of change would be slow enough to take GPS fixes over a large period of time (e.g. 20 minutes) to obtain an accurate estimation. But he rate of change of Δh drifts because it depends on altitude too and our glider is constantly going up and down. With the same QNH=1035 hPa at a GPS altitude of H=2500 mts. the altitude indicated by the uncalibrated altimeter would be h=2330.6 mts. so <!-- raw HTML omitted -->Δh=169.4 mts.<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>A lot of flight instuments use directly the noisy gps altitude readings. Others calculate pressure altimeter correct factor before taking off, while the altitude is constant. Sometimes the time lapse between the first satellite fix and the take-off isn&rsquo;t long enough to take sufficient gps readings to promediate and sometimes the altimeter will deviate from the correct calibration because QNH changes along the flight so at the end of the flight, if you top-land, will see that the final altitude is quite different from inital.<!-- raw HTML omitted --></p>
+	    <p>The philosophy behind this app is to replace the visual interaction with your device by audible interaction made of sounds and voice messages. Therefore you won&rsquo;t need to take your phone in sight during the flight or keep the screen on, which brings freedom (no cockpit) and battery life (screen on drains lots of battery power) to your flights. There are wired and wireless helmet headset kits that will allow you to interact with the app, answer phone calls during the flight and even connect a handheld transceiver.</p>
+<p>Therefore, in order to use the application it is necessary to have correctly configured the speech synthesis engine of your device by installing the speech synthesis files corresponding to English, Spanish or Portuguese, which are the languages supported by the application. If the regional configuration of your device matches any of these languages the application is automatically configured for that language during the installation, otherwise it will use English. Then the application searches for a speech synthesis file corresponding to the application configuration language. If it does not find it, it stops and displays an error message telling the user to install it and restart the application.
+If the regional configuration of your device does not match any of the languages supported by the application and you do not want to use English, you can change the language in the application preferences to Spanish or Portuguese. The application will then search for a speech synthesis file corresponding to the language you have selected and if it does not find it, it stops and displays an error message telling the user to install it and restart the application.</p>
 
 	  </div>
 	  <div class="post-comments">
@@ -226,7 +271,7 @@ readings and gps readings. Let&rsquo;s see how to calculate this correction fact
 	    
 	    
 	      <li>
-		 <a href="/page/2/#project">Next</a>
+		 <a href="/page/2/#manual">Next</a>
 	      </li>
 	    
 	  </ul>
@@ -237,30 +282,30 @@ readings and gps readings. Let&rsquo;s see how to calculate this correction fact
 	<aside class="sidebar">
 	  
 	  <div class="widget widget-latest-post">
-	    <h4 class="widget-title">All Posts</h4>
+	    <h4 class="widget-title">User manual</h4>
 	    
 	    <div class="media">
-	      <a href="/#project" class="pull-left">
+	      <a href="/#manual" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/blog-post-1-mod.jpg" alt="Altimeter calibration">
+		<img class="media-object" src="/images/blog/tts_english.jpg" alt="App install prerrequisites">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/#project" class="current">Altimeter calibration</a>
+		  <a href="/#manual" class="current">App install prerrequisites</a>
 		  
 		</h4>
-		<p>you can gauge the altimeter with the GPS readings</p>
+		<p>How to set the application and voice messages language</p>
 	      </div>
 	    </div>
 	    
 	    <div class="media">
-	      <a href="/page/2/#project" class="pull-left">
+	      <a href="/page/2/#manual" class="pull-left">
 	      
 		<img class="media-object" src="/images/blog/blog-post-2.jpg" alt="How To Wear Bright Shoes">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/2/#project" class="">How To Wear Bright Shoes</a>
+		  <a href="/page/2/#manual" class="">How To Wear Bright Shoes</a>
 		  
 		</h4>
 		<p>this is meta description</p>
@@ -268,13 +313,13 @@ readings and gps readings. Let&rsquo;s see how to calculate this correction fact
 	    </div>
 	    
 	    <div class="media">
-	      <a href="/page/3/#project" class="pull-left">
+	      <a href="/page/3/#manual" class="pull-left">
 	      
 		<img class="media-object" src="/images/blog/blog-post-3.jpg" alt="How To Wear Bright Shoes">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/3/#project" class="">How To Wear Bright Shoes</a>
+		  <a href="/page/3/#manual" class="">How To Wear Bright Shoes</a>
 		  
 		</h4>
 		<p>this is meta description</p>
@@ -282,13 +327,13 @@ readings and gps readings. Let&rsquo;s see how to calculate this correction fact
 	    </div>
 	    
 	    <div class="media">
-	      <a href="/page/4/#project" class="pull-left">
+	      <a href="/page/4/#manual" class="pull-left">
 	      
 		<img class="media-object" src="/images/blog/blog-post-5.jpg" alt="How To Wear Bright Shoes">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/4/#project" class="">How To Wear Bright Shoes</a>
+		  <a href="/page/4/#manual" class="">How To Wear Bright Shoes</a>
 		  
 		</h4>
 		<p>this is meta description</p>
@@ -296,13 +341,13 @@ readings and gps readings. Let&rsquo;s see how to calculate this correction fact
 	    </div>
 	    
 	    <div class="media">
-	      <a href="/page/5/#project" class="pull-left">
+	      <a href="/page/5/#manual" class="pull-left">
 	      
 		<img class="media-object" src="/images/blog/blog-post-6.jpg" alt="How To Wear Bright Shoes">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/5/#project" class="">How To Wear Bright Shoes</a>
+		  <a href="/page/5/#manual" class="">How To Wear Bright Shoes</a>
 		  
 		</h4>
 		<p>this is meta description</p>
@@ -310,13 +355,13 @@ readings and gps readings. Let&rsquo;s see how to calculate this correction fact
 	    </div>
 	    
 	    <div class="media">
-	      <a href="/page/6/#project" class="pull-left">
+	      <a href="/page/6/#manual" class="pull-left">
 	      
 		<img class="media-object" src="/images/blog/windmill.jpg" alt="Meteo wind">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/6/#project" class="">Meteo wind</a>
+		  <a href="/page/6/#manual" class="">Meteo wind</a>
 		  
 		</h4>
 		<p>The airspace app indicates the pilot the strength and direction of the meteo wind</p>
@@ -338,7 +383,7 @@ readings and gps readings. Let&rsquo;s see how to calculate this correction fact
 
 
 
-<section id="innovations" class="feature overly bg-2" style="background-image: url('https://flightcomp.github.io/images/featue-bg-mod.jpg')">
+<section id="innovations" class="feature overly bg-2" style="background-image: url('https://flightcomp.github.io/images/call-to-action-bg.jpg')">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-6">
@@ -450,7 +495,7 @@ readings and gps readings. Let&rsquo;s see how to calculate this correction fact
 	      <h3><a href="https://flightcomp.github.io/portfolio/speed-control/">Glide farthest</a></h3>
 	    </div>
 	    <div class="post-details">
-	      <p>Las teorías tradicionales para el cálculo de la velocidad de planeo máximo no sirven cuando el curso de vuelo no coincide con el rumbo. Prácticamente ningún instrumento tiene esto en consideración cuando calcula la velocidad de planeo máximo.</p>
+	      <p>Las teorías tradicionales para el cálculo de la velocidad de planeo máximo no sirven cuando el curso de vuelo no coincide con el rumbo. Prácticamente ningún instrumento tiene esto en cuenta cuando calcula la velocidad de planeo máximo.</p>
 	    </div>
 	  </div>
 	</div>
@@ -513,101 +558,6 @@ readings and gps readings. Let&rsquo;s see how to calculate this correction fact
 
 
 
-
-
-<section id="contactus" class="call-to-action bg-1 section-sm overly" style="background-image: url('https://flightcomp.github.io/images/call-to-action-bg.jpg');">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h2>We design delightful digital experiences.</h2>
-          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results <!-- raw HTML omitted --> we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-          
-          
-          <a class="btn btn-main btn-solid-border page-scroll" href="#contact">Tell Us Your Story</a>
-          
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-<section id="contact" class="contact-form">
-  <div class="container">
-    <div class="row">
-      <form method="POST" action="#">
-        <div class="col-md-6 col-sm-12">
-          <div class="block">
-            <div class="form-group">
-              <input name="user_name" type="text" class="form-control" placeholder="Your Name">
-            </div>
-            <div class="form-group">
-              <input name="user_email" type="text" class="form-control" placeholder="Email Address">
-            </div>
-            <div class="form-group">
-              <input name="user_subject" type="text" class="form-control" placeholder="Subject">
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="block">
-            <div class="form-group-2">
-              <textarea name="user_message" class="form-control" rows="4" placeholder="Your Message"></textarea>
-            </div>
-            <button class="btn btn-default" type="submit">Send Message</button>
-          </div>
-        </div>
-      </form>
-    </div>
-    <div class="contact-box row">
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <h2>Stop By For A visit</h2>
-          <ul class="address-block">
-            <li><i class="ion-ios-location-outline"></i>Location: Spain</li>
-            <li><i class="ion-ios-email-outline"></i>Email: theairdroid1@gmail.com</li>
-            <li><i class="ion-ios-telephone-outline"></i>Phone: </li>
-          </ul>
-          <ul class="social-icons">
-            
-            <li><a href="#"><i class="ion-social-googleplus-outline"></i></a></li>
-            
-            <li><a href="#"><i class="ion-social-linkedin-outline"></i></a></li>
-            
-            <li><a href="#"><i class="ion-social-pinterest-outline"></i></a></li>
-            
-            <li><a href="#"><i class="ion-social-dribbble-outline"></i></a></li>
-            
-            <li><a href="#"><i class="ion-social-twitter-outline"></i></a></li>
-            
-            <li><a href="#"><i class="ion-social-facebook-outline"></i></a></li>
-            
-          </ul>
-        </div>
-      </div>
-      
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <div class="google-map">
-            <div class="map" id="map_canvas" data-latitude="51.5223477" data-longitude="-0.1622023" data-marker="/images/marker.png" data-marker-name="Airspace"></div>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</section>
-
-
-
 <footer class="footer">
   <div class="container">
     <div class="row">
@@ -616,8 +566,6 @@ readings and gps readings. Let&rsquo;s see how to calculate this correction fact
 	  <ul>
             
             <li><a href="/faq">FAQ</a></li>
-            
-            <li><a href="/pricing">Pricing</a></li>
             
             <li><a href="/privacy-policy">Privacy policy</a></li>
             

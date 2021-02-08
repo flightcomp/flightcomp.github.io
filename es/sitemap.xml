@@ -48,8 +48,18 @@
   </url>
   
   <url>
-    <loc>https://flightcomp.github.io/es/tags/ala-delta/</loc>
+    <loc>https://flightcomp.github.io/es/tags/acoustic-variometer/</loc>
     <lastmod>2018-09-25T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://flightcomp.github.io/tags/acoustic-variometer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://flightcomp.github.io/es/tags/acoustic-variometer/"
+                />
   </url>
   
   <url>
@@ -68,22 +78,17 @@
   </url>
   
   <url>
-    <loc>https://flightcomp.github.io/es/tags/blueflyvario/</loc>
-    <lastmod>2018-09-25T11:07:10+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://flightcomp.github.io/es/blog/blog-post-1/</loc>
+    <loc>https://flightcomp.github.io/es/tags/android-app/</loc>
     <lastmod>2018-09-25T11:07:10+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://flightcomp.github.io/blog/blog-post-1/"
+                href="https://flightcomp.github.io/tags/android-app/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://flightcomp.github.io/es/blog/blog-post-1/"
+                href="https://flightcomp.github.io/es/tags/android-app/"
                 />
   </url>
   
@@ -103,8 +108,18 @@
   </url>
   
   <url>
-    <loc>https://flightcomp.github.io/es/tags/parapente/</loc>
+    <loc>https://flightcomp.github.io/es/blog/blog-post-1/</loc>
     <lastmod>2018-09-25T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://flightcomp.github.io/blog/blog-post-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://flightcomp.github.io/es/blog/blog-post-1/"
+                />
   </url>
   
   <url>
@@ -120,11 +135,6 @@
                 hreflang="es"
                 href="https://flightcomp.github.io/es/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://flightcomp.github.io/es/tags/vari%C3%B3metro/</loc>
-    <lastmod>2018-09-25T11:07:10+06:00</lastmod>
   </url>
   
   <url>

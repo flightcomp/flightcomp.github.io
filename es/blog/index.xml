@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>Introducción</title>
+      <title>Requisitos previos</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-1/</link>
       <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-1/</guid>
-      <description>La app airspace es una aplicación de vuelo libre¹ compleja que convierte un teléfono móvil o tablet android en un instrumento de vuelo preciso y fiable capaz de guiarte en tus vuelos de XC.</description>
+      <description>La filosofía de la aplicación consiste en sustituir la interacción visual con el dispositivo por una interacción sonora basada en tonos y mensajes de voz. Por tanto, no necesitas llevar el teléfono a la vista durante el vuelo sino en el bolsillo de tu mono o arnés de vuelo, ni llevar la pantalla encendida, lo cual aporta comodidad (no necesitas llevar portainstrumentos) y autonomía (la pantalla encendida consume mucha batería).</description>
     </item>
     
     <item>

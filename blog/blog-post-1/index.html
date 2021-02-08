@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us"><head>
   <meta charset="utf-8">
-  <title>Altimeter calibration</title>
+  <title>App install prerrequisites</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="you can gauge the altimeter with the GPS readings">
+  <meta name="description" content="How to set the application and voice messages language">
   <meta name="author" content="Aitor Castro">
   <meta name="generator" content="Hugo 0.69.2" />
 
@@ -64,15 +64,15 @@
 		<li><a href="/#body">Home</a></li>
 		
 		
-		  <li><a href="/#project">Project</a></li>	
+		  <li><a href="/#contact">Download</a></li>	
+		
+		
+		
+		  <li><a href="/#manual">Manual</a></li>	
 		
 		
 		
 		  <li><a href="/#innovations">Innovations</a></li>	
-		
-		
-		
-		  <li><a href="/#contactus">Contact</a></li>	
 		
 		
 	      
@@ -128,8 +128,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Altimeter calibration</h1>
-          <p>you can gauge the altimeter with the GPS readings</p>
+          <h1>App install prerrequisites</h1>
+          <p>How to set the application and voice messages language</p>
         </div>
       </div>
     </div>
@@ -142,7 +142,7 @@
     <div class="row">
       <div class="col-md-8">
 	<div class="post post-single">
-	  <h2 class="post-title">Altimeter calibration</h2>
+	  <h2 class="post-title">App install prerrequisites</h2>
       	  <div class="post-meta">
 	      <ul>
 		<li><i class="ion-calendar"></i> 
@@ -151,34 +151,20 @@
 </li>
 		<li><i class="ion-pricetags"></i> 
 		  
-		  <a href="/tags/advice">Advice</a>
+		  <a href="/tags/android-app">Android app</a>
 		  
-		  , <a href="/tags/technology">Technology</a>
-		  
-		  , <a href="/tags/cosa-rica">Cosa rica</a>
+		  , <a href="/tags/acoustic-variometer">Acoustic variometer</a>
 		  
 		</li>
     	      </ul>
 	  </div>
 	  <div class="post-thumb">
-	    <img class="img-responsive" src="/images/blog/blog-post-1-mod.jpg" alt="Altimeter calibration">
+	    <img class="img-responsive" src="/images/blog/tts_english.jpg" alt="App install prerrequisites">
 	  </div>
 	  <div class="post-content post-excerpt">
-	    <p>Pressure based altimeters have been relegated in favor of gnss receivers for the estimation of altitude
-mainly because they need to be calibrated with QNH. QNH can change in more than 5 hPa (50 mts.) during
-the flight or between places more than 50 km apart, so it should be continuously updated from
-radio weather reports. On the other hand, gnss altitude fixings suffer from loss of availability and
-measurement errors of the order of 35 meters.<!-- raw HTML omitted --></p>
-<p>Will see how to merge this two sources of altitude information. The trick consists of using the highly available
-&ldquo;spike free&rdquo; pressure altitude readings adding a correction factor obtained from the difference between those
-readings and gps readings. Let&rsquo;s see how to calculate this correction factor.<!-- raw HTML omitted --></p>
-<p>The formula to obtain the altitude over sea level is derived from the equation: <!-- raw HTML omitted --></p>
-<p>$$h=-\frac{T_0}{L} * \left[ 1- \left(\frac{p}{QNH}\right)^{-\frac{L*R}{g}}\right]$$ <!-- raw HTML omitted --></p>
-<p>Where p is the pressure and QNH is the atmospheric pressure adjusted to mean sea level. Both are measured in hPa. The rest are constants.</p>
-<p>With a QNH=1035 hPa at a GPS altitude of H=2000 mts. the altitude indicated by an uncalibrated altimeter (QNH = 1013.25 hPa) is h=1828.6 mts. so the average of the difference beween the altitude indicated by the two sensors:<!-- raw HTML omitted --></p>
-<p>$$\Delta h = \sum_{i=0}^n \frac {H_i-h_i}{n}$$<!-- raw HTML omitted --></p>
-<p>Will converge to the target <!-- raw HTML omitted -->Δh=171.4 mts<!-- raw HTML omitted --> as n increases, despite the GPS noise in altitude. The larger the noise in GPS altitude readings the more GPS fixes we&rsquo;ll need. If Ah would depend only on QNH its rate of change would be slow enough to take GPS fixes over a large period of time (e.g. 20 minutes) to obtain an accurate estimation. But he rate of change of Δh drifts because it depends on altitude too and our glider is constantly going up and down. With the same QNH=1035 hPa at a GPS altitude of H=2500 mts. the altitude indicated by the uncalibrated altimeter would be h=2330.6 mts. so <!-- raw HTML omitted -->Δh=169.4 mts.<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>A lot of flight instuments use directly the noisy gps altitude readings. Others calculate pressure altimeter correct factor before taking off, while the altitude is constant. Sometimes the time lapse between the first satellite fix and the take-off isn&rsquo;t long enough to take sufficient gps readings to promediate and sometimes the altimeter will deviate from the correct calibration because QNH changes along the flight so at the end of the flight, if you top-land, will see that the final altitude is quite different from inital.<!-- raw HTML omitted --></p>
+	    <p>The philosophy behind this app is to replace the visual interaction with your device by audible interaction made of sounds and voice messages. Therefore you won&rsquo;t need to take your phone in sight during the flight or keep the screen on, which brings freedom (no cockpit) and battery life (screen on drains lots of battery power) to your flights. There are wired and wireless helmet headset kits that will allow you to interact with the app, answer phone calls during the flight and even connect a handheld transceiver.</p>
+<p>Therefore, in order to use the application it is necessary to have correctly configured the speech synthesis engine of your device by installing the speech synthesis files corresponding to English, Spanish or Portuguese, which are the languages supported by the application. If the regional configuration of your device matches any of these languages the application is automatically configured for that language during the installation, otherwise it will use English. Then the application searches for a speech synthesis file corresponding to the application configuration language. If it does not find it, it stops and displays an error message telling the user to install it and restart the application.
+If the regional configuration of your device does not match any of the languages supported by the application and you do not want to use English, you can change the language in the application preferences to Spanish or Portuguese. The application will then search for a speech synthesis file corresponding to the language you have selected and if it does not find it, it stops and displays an error message telling the user to install it and restart the application.</p>
 
 	  </div>
 	  <div class="post-comments">
@@ -198,8 +184,6 @@ readings and gps readings. Let&rsquo;s see how to calculate this correction fact
 	  <ul>
             
             <li><a href="/faq">FAQ</a></li>
-            
-            <li><a href="/pricing">Pricing</a></li>
             
             <li><a href="/privacy-policy">Privacy policy</a></li>
             

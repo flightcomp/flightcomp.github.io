@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>acoustic variometer on Airspace</title>
+    <link>https://flightcomp.github.io/es/tags/acoustic-variometer/</link>
+    <description>Recent content in acoustic variometer on Airspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) Todos los derechos reservados</copyright>
+    <lastBuildDate>Tue, 25 Sep 2018 11:07:10 +0600</lastBuildDate>
+    
+	<atom:link href="https://flightcomp.github.io/es/tags/acoustic-variometer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Requisitos previos</title>
+      <link>https://flightcomp.github.io/es/blog/blog-post-1/</link>
+      <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/blog/blog-post-1/</guid>
+      <description>La filosofía de la aplicación consiste en sustituir la interacción visual con el dispositivo por una interacción sonora basada en tonos y mensajes de voz. Por tanto, no necesitas llevar el teléfono a la vista durante el vuelo sino en el bolsillo de tu mono o arnés de vuelo, ni llevar la pantalla encendida, lo cual aporta comodidad (no necesitas llevar portainstrumentos) y autonomía (la pantalla encendida consume mucha batería).</description>
+    </item>
+    
+  </channel>
+</rss>
