@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>App install prerrequisites</title>
+      <title>App installation</title>
       <link>https://flightcomp.github.io/blog/blog-post-1/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/blog/blog-post-1/</guid>
-      <description>The philosophy behind this app is to replace the visual interaction with your device by audible interaction made of sounds and voice messages. Therefore you won&amp;rsquo;t need to take your phone in sight during the flight or keep the screen on, which brings freedom (no cockpit) and battery life (screen on drains lots of battery power) to your flights.</description>
+      <description>Since the communication of the application with the pilot is carried out through voice messages, it is necessary to have the voice synthesis engine of your device correctly configured by installing the voice synthesis files corresponding to English, Spanish or Portuguese, which are the languages ​​supported by the application.</description>
     </item>
     
   </channel>

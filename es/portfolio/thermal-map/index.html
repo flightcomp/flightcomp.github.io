@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es-es"><head>
   <meta charset="utf-8">
-  <title>compensación de energía</title>
+  <title>Mapas de térmicas</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is meta description">
+  <meta name="description" content="Localizador de térmicas">
   <meta name="author" content="Aitor Castro">
   <meta name="generator" content="Hugo 0.69.2" />
 
@@ -90,7 +90,7 @@
                   
                   
                   
-                  <option id="es" value="https://flightcomp.github.io/es/tags/compensaci%C3%B3n-de-energ%C3%ADa/" selected>
+                  <option id="es" value="https://flightcomp.github.io/es/portfolio/thermal-map/" selected>
                     Es
                   </option>
                   
@@ -111,84 +111,8 @@
 
 
 
-  <section class="page-title bg-2" style="background-image: url('https://flightcomp.github.io/images/featue-bg-mod.jpg');">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h1>Fallos del variómetro de energía total</h1>
-          <p>Variómetro de energía total</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="portfolio-single-page section-sm">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <img class="img-responsive w-100" src="/images/portfolio/tecompensation-mod.jpg" alt="">
-      </div>
-      <div class="col-md-4">
-        <div class="project-details">
-          <h4>Detalles del artículo</h4>
-          <ul>
-	    <li><span>Autor:</span>
-	      
-	        <strong>Aitor Castro</strong>
-	      
-	    </li>
-	    <li><span>Términos:</span> <strong>compensación de energía, detector de térmicas</strong></li>
-	    <li><span>Dificultad:</span> <strong>Avanzado</strong></li>
-	    <li><span>Modificado:</span> <strong>
-    12 de Septiembre de 2018
-
-</strong></li>
-	    <li><span>Título:</span> <strong>Fallos del variómetro de energía total</strong></li>
-	    <li><span>Descripción:</span> <strong>Variómetro de energía total</strong></li>
-	    
-            <li><span>Habilidades:</span> <strong>Física</strong></li>
-            
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="project-content mt-50">
-          <p>El variómetro de energía total de un planeador tiene en cuenta los intercambios de energía debidos a movimentos horizontales y verticales del aire. El variómetro ET mezcla ambos efectos dando como resultado indicaciones que inducen a error al piloto.</p>
-<h2 id="como-funciona-un-variómetro-et-">Como funciona un variómetro ET</h2>
-<p>Mientras que un variómetro indica cambios de altitud y, por tanto, cambios en la energía potencial del planeador, los variómetros de energía total indican los cambios en la energía total del planeador, es decir, la suma de su energía potencial \( E_{pot} \) (debida a la altitud) y su energía cinética \( E_{kin} \) (debida a la velocidad aire). La gran ventaja de los variómetros de energía total es que los cambios en la energía potencial, debidos a cambios en la velocidad aire cuando aceleramos y frenamos, no se tienen en cuenta. Esto facilita mucho la localización de ascendencias o zonas de enegía potencial creciente.</p>
-<p>La figura superior representa dos puntos de la curva polar de un planeador. Cuando aumentamos la velocidad en aire en calma nos movemos del punto V₁ al punto V₂ siguiendo la línea azul y no la curva polar. El planeador sigue la línea de energía constante. El planeador tiene que perder altura para incrementar su energía cinética. Un vario convencional indicaría una perdida de altura como si estuviésemos en una descendencia.</p>
-<p>Cuando frenamos nos movemos en la dirección opuesta siguiendo la línea roja. Un vario normal detectaría una ascendencia ficticia. Un variómetro ET descuenta los cambios de energía cinética de las indicaciones del vario haciendo que las indicaciones sigan la curva polar nuevamente.</p>
-<h2 id="movimientos-horizontales-de-aire-">Movimientos horizontales de aire</h2>
-<p>Desafortunadamente hay otro tipo de influencia en la energía total aportado por la atmósfera: la ganacia o pérdida de energía cinética debida a cambios repentinos en la velocidad de la aeronave relacionados con rachas de viento horizontales o cizalladuras.</p>
-<p>Cualquier piloto conoce el efecto del gradiente de viento al aterrizar. El viento de cara disminuye a medida que el planeador desciende debido a la fricción que se produce con la superficie de la tierra. El resultado es que la tasa de descenso se incrementa significativamente para recuperar la velocidad aire que se pierde y en casos extremos el planeador puede entrar en pérdida. Es todavía peor si entramos al aterrizaje haciendo un giro cerrado. Hay menos viento en la semiala que está más cerca del suelo haciendo que el ala se incline más de lo esperado.</p>
-<p>Un incremento del viento de cara causa el efecto opuesto. La velocidad aire aumenta así que hay una ganancia de energía cinética. El vario de energía total ve esta ganancia de energía exactamente igual que una ganancia de altitud a velocidad constante. El variómetro de energía total no puede diferenciar entre los dos tipos de ganancia de energía. Poco después el planeador restablece la velocidad aire que llevaba provocando una ganancia de altura, esta vez, detectada por el vario normal que le lleva a pensar que ha encontrado una térmica.</p>
-<p><code>El variómetro de energía total de Airspace no tiene en cuenta las variaciones de energía cinética debidas a rachas de viento horizontal.</code></p>
-<p>Un cambio en la velocidad aire, que representaremos como dV, da como resultado un cambio de energía cinética m∙V∙dV. Para que la energía total permanezca constante debe haber un cambio en la energía potencia igual y de sentido opuesto m∙g∙dH donde g es la constante de gravitación y dH es la ganacia de altitud.</p>
-<p>$$m \cdot V \cdot dV + m \cdot g \cdot dH = 0 \Rightarrow dH = -\frac{V \cdot dV}{g}$$</p>
-<p>Esta <strong>tasa de ascenso ficticia</strong> se descuenta de la tasa de ascenso del vario obteniendo la <strong>tasa de ascenso total</strong> que sirve para detectar movimientos verticales del aire. La tasa de ascenso total deja de indicar la tasa de ascenso de nuestra aeronave salvo en el caso de velocidad aire constante y ausencia de rachas de viento horizontales. Muchos pilotos echan de menos la indicación de la tasa de ascenso del planeador así que en Airspace hemos buscado la manera de dar ambas indicaciones al piloto de una forma audible:</p>
-<blockquote>
-<p>La frecuencia y duración de los tonos del vario sigue siendo la que corresponde a la tasa de ascenso del planeador y cuando la tasa de ascenso ficticia es negativa se produce un aumento brusco en la frecuencia de los tonos para indicar al piloto que la ascendencia es real. Una tasa de ascenso total positiva a pesar de estar descendiendo es una buena indicación de la proximidad de una térmica. En ese caso la aplicación informará al piloto con un tono especial. Es lo que en airspace llamamos <strong>detector de térmicas</strong></p>
-</blockquote>
-<h2 id="referencias-bibliográficas-">Referencias bibliográficas</h2>
-<ol>
-<li>François Ragot. Unsuitability of existing TE variometers for dynamic soaring. Congreso OSTIV 1981.</li>
-<li>Rudolf Brözel. Total energy Kompensation. Septiembre 1985.</li>
-<li>Taras Kiceniuk. A variometer for dynamic soaring. Technical Soaring, volumen 25, número 4, Octubre 2001.</li>
-<li>François Ragot. Best speed story, página 12, columna izquierda, Technical Soaring, volumen 28, Números 1 /2, Enero/Abril 2004.</li>
-</ol>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-  <section class="page-title bg-2" style="background-image: url('https://flightcomp.github.io/images/featue-bg-mod.jpg');">
+<section class="page-title bg-2" style="background-image: url('https://flightcomp.github.io/images/featue-bg-mod.jpg');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -264,9 +188,6 @@
     </div>
   </div>
 </section>
-
-
-	
 
 
 <footer class="footer">

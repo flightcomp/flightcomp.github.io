@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) Todos los derechos reservados</copyright>
-    <lastBuildDate>Mon, 23 Dec 2019 13:05:29 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2020 13:05:29 +0600</lastBuildDate>
     
 	<atom:link href="https://flightcomp.github.io/es/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Requisitos previos</title>
+      <title>Instalando la app</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-1/</link>
       <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-1/</guid>
-      <description>La filosofía de la aplicación consiste en sustituir la interacción visual con el dispositivo por una interacción sonora basada en tonos y mensajes de voz. Por tanto, no necesitas llevar el teléfono a la vista durante el vuelo sino en el bolsillo de tu mono o arnés de vuelo, ni llevar la pantalla encendida, lo cual aporta comodidad (no necesitas llevar portainstrumentos) y autonomía (la pantalla encendida consume mucha batería).</description>
+      <description>Dado que la comunicación de la aplicación con el piloto se lleva a cabo por medio de mensajes vocales es necesario tener configurado correctamente el motor de síntesis de voz de su dispositivo instalando los archivos de síntesis de voz correspondientes al inglés, castellano o portugués que son los idiomas que soporta la aplicación.</description>
     </item>
     
     <item>
@@ -31,12 +31,12 @@
     </item>
     
     <item>
-      <title>How To Wear Bright Shoes</title>
+      <title>Navegación</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-3/</link>
       <pubDate>Sun, 23 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-3/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+      <description>La aplicación permite cargar un fichero de balizas de tarea con la finalidad de hacer un recorrido que vaya pasando por ellas en orden. Una baliza viene descrita por su nombre (xxx), latitud, longitud, radio, altitud y un margen de altitud.</description>
     </item>
     
     <item>
@@ -58,12 +58,12 @@
     </item>
     
     <item>
-      <title>How To Wear Bright Shoes</title>
+      <title>Comunicacion con la aplicación</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-6/</link>
       <pubDate>Thu, 20 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-6/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+      <description>La aplicación informa al piloto a través de un mensaje vocal de los cambios en las variables del vuelo que puedan ser relevantes de forma automática pero el piloto también puede solicitar a la aplicación información sobre algunas de estas variables pulsando el botón multimedia de sus auriculares o altavoz bluetooth.</description>
     </item>
     
     <item>
@@ -91,6 +91,15 @@
       
       <guid>https://flightcomp.github.io/es/portfolio/te-variometer/</guid>
       <description>El variómetro de energía total de un planeador tiene en cuenta los intercambios de energía debidos a movimentos horizontales y verticales del aire. El variómetro ET mezcla ambos efectos dando como resultado indicaciones que inducen a error al piloto.</description>
+    </item>
+    
+    <item>
+      <title>Mapas de térmicas</title>
+      <link>https://flightcomp.github.io/es/portfolio/thermal-map/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/thermal-map/</guid>
+      <description>Los mapas de térmicas muestran localizaciones donde hay una alta probabilidad de encontrar una térmica. Se construyen a partir de los tracks de vuelos reales subidos a distintas plataformas como xcontest, leonardo, etc.</description>
     </item>
     
     <item>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us"><head>
   <meta charset="utf-8">
-  <title>How To Wear Bright Shoes</title>
+  <title>Navigation</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="this is meta description">
+  <meta name="description" content="Navigation through waypoints">
   <meta name="author" content="Aitor Castro">
   <meta name="generator" content="Hugo 0.69.2" />
 
@@ -128,8 +128,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>How To Wear Bright Shoes</h1>
-          <p>this is meta description</p>
+          <h1>Navigation</h1>
+          <p>Navigation through waypoints</p>
         </div>
       </div>
     </div>
@@ -142,7 +142,7 @@
     <div class="row">
       <div class="col-md-8">
 	<div class="post post-single">
-	  <h2 class="post-title">How To Wear Bright Shoes</h2>
+	  <h2 class="post-title">Navigation</h2>
       	  <div class="post-meta">
 	      <ul>
 		<li><i class="ion-calendar"></i> 
@@ -159,43 +159,21 @@
     	      </ul>
 	  </div>
 	  <div class="post-thumb">
-	    <img class="img-responsive" src="/images/blog/blog-post-3.jpg" alt="How To Wear Bright Shoes">
+	    <img class="img-responsive" src="/images/blog/blog-post-3.jpg" alt="Navigation">
 	  </div>
 	  <div class="post-content post-excerpt">
-	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores
-vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem
-ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae ab doloremque accusamus sit, eos dolorum officiis
-a perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, facere.</p>
+	    <p>The application allows you to load task file with waypoints in order to make a route that passes through them. A waypoint is described by its name (xxx), latitude, longitude, radius, altitude, and  <strong>altitude margin</strong>.</p>
 <blockquote>
-<p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes
-nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error</p>
+<p>The <strong>altitude margin</strong> is the waypoint minimum arrival altitude above the ground necessary to find a thermal, climb and go on. The default value at the intermediate waypoints is 300 meters and at the goal it is 50 meters.</p>
 </blockquote>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illo deserunt necessitatibus quibusdam sint,
-eos explicabo tenetur molestiae vero facere, aspernatur sit mollitia perferendis reiciendis. Deleniti magni
-explicabo sed alias fugit amet animi molestias ipsum maiores. Praesentium sint, id laborum quos. Tempora
-inventore est, dolor corporis quis doloremque nostrum, eos velit culpa quasi labore. Provident laborum porro
-nihil iste, magnam officia nemo praesentium autem, libero vel officiis. Omnis pariatur nam voluptatem voluptate
-at officia repellat ea beatae eligendi? Mollitia error saepe, aperiam facere. Optio maiores deleniti veritatis
-eaque commodi atque aperiam, debitis iste alias eligendi ut facilis earum! Impedit, tempore.</p>
-<pre><code>  .blog-classic {
-  margin-bottom: 70px;
-  padding-bottom: 70px;
-  border-bottom: 1px solid #efefef;
-  }
-</code></pre><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex error esse a dolore, architecto sapiente, aliquid
-commodi, laudantium eius nemo enim. Enim, fugit voluptatem rem molestiae. Sed totam quis accusantium iste
-nesciunt id exercitationem cumque repudiandae voluptas perspiciatis, consequatur quasi, molestias, culpa odio
-adipisci. Nesciunt optio fugiat iste quam modi, ex vitae odio pariatur! Corrupti explicabo at harum qui
-doloribus, sit dicta nemo, dolor, enim eum molestias fugiat obcaecati autem eligendi? Nisi delectus eaque
-architecto voluptatibus, unde sit minus quae quod eligendi soluta recusandae doloribus, officia, veritatis
-voluptatum eius aliquam quos. Consectetur, nisi? Veritatis totam, unde nostrum exercitationem tempora suscipit,
-molestias, deserunt ipsum laborum aut iste eaque? Vitae delectus dicta maxime non mollitia? Sapiente eos a quia
-eligendi deserunt repudiandae modi molestias tenetur autem pariatur ullam itaque, quas eveniet, illo quam rerum
-ex obcaecati voluptatum nesciunt incidunt culpa provident illum soluta. Voluptas possimus nesciunt inventore
-perspiciatis neque fugiat, magnam natus repellendus praesentium eum voluptatum, alias incidunt, tempora
-reprehenderit recusandae et numquam itaque ratione dolor voluptatibus in commodi ut! Neque deserunt nostrum
-commodi dolor natus quo, non vitae deleniti, vero voluptatem error aspernatur veniam expedita numquam amet quia
-in dolores velit esse molestiae! Iusto architecto accusantium quisquam recusandae quod vero quia.</p>
+<p>During the flight the <strong>destination waypoint</strong> is the waypoint to which we are heading. When we enter within the radius of the destination waypoint, the application notifies it with the <strong>arrival speech</strong>: <code>You have arrived at xxx</code>, where xxx is the name of the waypoint, and sets the next waypoint of the file as the new destination waypoint. We&rsquo;ll see later how we can skip a waypoint.</p>
+<p>If we keep the headphone button pressed for 2 seconds while flying in a straight line, the app will indicate the change of course necessary to reach the destination waypoint with the <strong>course change speech</strong>: <code>Waypoint xxx at yyy degrees to the right/left</code>. If we head towards the destination waypoint within 15 seconds we will enter the waypoint <strong>follow mode</strong> and we will hear the <strong>final glide speech</strong>: <code>You arrive with yyy meters at xxx</code> if the waypoint is reachable or <code>You arrive in yyy seconds at xxx</code> if it is not <strong>reachable</strong>.</p>
+<p>That a waypoint is <strong>reachable</strong> means that we can reach the edge of the cylinder whose axis passes through it, with an altitude equal to or greater than the minimum arrival altitude, taking into account the wind but assuming that we fly <strong>hands up</strong> in no sinking air. While we are outside the destination waypoint, the application informs us when it becomes reachable or stops being reachable, without having to press any button, with the <strong>range change speech</strong>: <code>Over xxx</code> or <code>Below xxx</code> respectively.</p>
+<blockquote>
+<p><strong>Follow mode</strong> is used to maintain course to the destination waypoint without having to press any button. In this mode, when we deviate from the course, the application generates the change of course speech. If we correct it within 15 seconds we will hear the final glide speech. Otherwise we will exit follow mode.</p>
+</blockquote>
+<p>If we press the headphone button again, within 10 seconds of the first press, the application tells us the direction to the next waypoint in the task file. If we head towards it, we set it as the destination waypoint, skipping the current waypoint. If we want to skip more than one waypoint we will have to continue pressing, within 10 seconds of the previous press, once for each waypoint in the file, until we hear the course change speech to the waypoint that interests us. We will have 15 seconds from when we hear the speech, to set course for the waypoint and set it as the destination. At that moment we will hear the final glide speech and we will also enter follow mode to the new destination waypoint.</p>
+<p>Whether or not we have loaded a task file, the first waypoint that the application sets as the destination is the take-off. The takeoff location is registered as a waypoint with a 500 meter radius and an altitude margin of 0. The take-off waypoint is a special waypoint because, outside its radius, travel time and altitude of arrival are calculated to the center of the waypoint and not to its edge as is the case with the rest of the task waypoints. This is done to facilitate the <strong>top landing</strong>. When we cross out the radius of the takeoff waypoint we will hear a speech with the final glide to its center. To skip the takeoff waypoint and set the first waypoint of the task file as the destination waypoint, we will press the headset button as indicated in the previous paragraph. The rest of the waypoints in the task file will follow each other as destination waypoints as we reach them without having to press any button.</p>
 
 	  </div>
 	  <div class="post-comments">

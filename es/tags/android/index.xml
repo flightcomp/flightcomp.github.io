@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>How To Wear Bright Shoes</title>
+      <title>Navegación</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-3/</link>
       <pubDate>Sun, 23 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-3/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+      <description>La aplicación permite cargar un fichero de balizas de tarea con la finalidad de hacer un recorrido que vaya pasando por ellas en orden. Una baliza viene descrita por su nombre (xxx), latitud, longitud, radio, altitud y un margen de altitud.</description>
     </item>
     
   </channel>

@@ -21,5 +21,14 @@
       <description>El variómetro de energía total de un planeador tiene en cuenta los intercambios de energía debidos a movimentos horizontales y verticales del aire. El variómetro ET mezcla ambos efectos dando como resultado indicaciones que inducen a error al piloto.</description>
     </item>
     
+    <item>
+      <title>Mapas de térmicas</title>
+      <link>https://flightcomp.github.io/es/portfolio/thermal-map/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/thermal-map/</guid>
+      <description>Los mapas de térmicas muestran localizaciones donde hay una alta probabilidad de encontrar una térmica. Se construyen a partir de los tracks de vuelos reales subidos a distintas plataformas como xcontest, leonardo, etc.</description>
+    </item>
+    
   </channel>
 </rss>

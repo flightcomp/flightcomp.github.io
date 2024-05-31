@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>Requisitos previos</title>
+      <title>Instalando la app</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-1/</link>
       <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-1/</guid>
-      <description>La filosofía de la aplicación consiste en sustituir la interacción visual con el dispositivo por una interacción sonora basada en tonos y mensajes de voz. Por tanto, no necesitas llevar el teléfono a la vista durante el vuelo sino en el bolsillo de tu mono o arnés de vuelo, ni llevar la pantalla encendida, lo cual aporta comodidad (no necesitas llevar portainstrumentos) y autonomía (la pantalla encendida consume mucha batería).</description>
+      <description>Dado que la comunicación de la aplicación con el piloto se lleva a cabo por medio de mensajes vocales es necesario tener configurado correctamente el motor de síntesis de voz de su dispositivo instalando los archivos de síntesis de voz correspondientes al inglés, castellano o portugués que son los idiomas que soporta la aplicación.</description>
     </item>
     
   </channel>

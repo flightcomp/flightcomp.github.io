@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>Mapas de térmicas</title>
+      <link>https://flightcomp.github.io/es/portfolio/thermal-map/</link>
+      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/portfolio/thermal-map/</guid>
+      <description>Los mapas de térmicas muestran localizaciones donde hay una alta probabilidad de encontrar una térmica. Se construyen a partir de los tracks de vuelos reales subidos a distintas plataformas como xcontest, leonardo, etc.</description>
+    </item>
+    
+    <item>
       <title>Planear mas lejos</title>
       <link>https://flightcomp.github.io/es/portfolio/speed-control/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>

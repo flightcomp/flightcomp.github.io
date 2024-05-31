@@ -228,7 +228,7 @@
 
         
         <div class="post post-single">
-	  <h2 class="post-title">Meteo wind</h2>
+	  <h2 class="post-title">Navigation</h2>
       	  <div class="post-meta">
 	      <ul>
 		<li><i class="ion-calendar"></i> 
@@ -237,23 +237,29 @@
 </li>
 		<li><i class="ion-pricetags"></i> 
 		  
-		  <a href="/tags/meteo-wind">Meteo wind</a>
+		  <a href="/tags/android">Android</a>
+		  
+		  , <a href="/tags/retro">Retro</a>
 		  
 		</li>
     	      </ul>
 	  </div>
 	  <div class="post-thumb">
-	    <img class="img-responsive" src="/images/blog/windmill.jpg" alt="Meteo wind">
+	    <img class="img-responsive" src="/images/blog/blog-post-3.jpg" alt="Navigation">
 	  </div>
 	  <div class="post-content post-excerpt">
-	    <p>The airspace app uses gps readings to calculate the prevailing wind speed and direction during the flight. To ensure a reliable estimation it&rsquo;s necessary a minimum number of samples in a wide range of directions of flight. That&rsquo;s why the calculation may take over 10 minutes.</p>
-<p>When the app has finished the calculations it informs the pilot with a speech like:</p>
-<p><code>Wind: 10 kilometers per hour from northwest</code></p>
+	    <p>The application allows you to load task file with waypoints in order to make a route that passes through them. A waypoint is described by its name (xxx), latitude, longitude, radius, altitude, and  <strong>altitude margin</strong>.</p>
 <blockquote>
-<p>The unit of measure for the wind strength is the same used to measure the speed and can be modified in the user preferences screen. The wind direction resolution is 22.5º because there are 16 possible directions: North, North-northeast, Northeast, East-northeast, East, &hellip;</p>
+<p>The <strong>altitude margin</strong> is the waypoint minimum arrival altitude above the ground necessary to find a thermal, climb and go on. The default value at the intermediate waypoints is 300 meters and at the goal it is 50 meters.</p>
 </blockquote>
-<p>If the prevailing wind direction or strength changes in more than 5 kmh during the flight the app will be reported to the pilot with one speech. If there are not significant changes the app will repeat the speech every 10 minutes. This changes in the wind can be due to weather changes or to the fact that the pilot has moved to a different zone. Wind changes are frequent when we ascend or descend in altitude. Airspace app uses an adaptative time window to reach a compromise among reliability and response time.</p>
-<p>This wind estimation is the base of another estimations made by the app like the time and altitude needed to reach a waypoint.</p>
+<p>During the flight the <strong>destination waypoint</strong> is the waypoint to which we are heading. When we enter within the radius of the destination waypoint, the application notifies it with the <strong>arrival speech</strong>: <code>You have arrived at xxx</code>, where xxx is the name of the waypoint, and sets the next waypoint of the file as the new destination waypoint. We&rsquo;ll see later how we can skip a waypoint.</p>
+<p>If we keep the headphone button pressed for 2 seconds while flying in a straight line, the app will indicate the change of course necessary to reach the destination waypoint with the <strong>course change speech</strong>: <code>Waypoint xxx at yyy degrees to the right/left</code>. If we head towards the destination waypoint within 15 seconds we will enter the waypoint <strong>follow mode</strong> and we will hear the <strong>final glide speech</strong>: <code>You arrive with yyy meters at xxx</code> if the waypoint is reachable or <code>You arrive in yyy seconds at xxx</code> if it is not <strong>reachable</strong>.</p>
+<p>That a waypoint is <strong>reachable</strong> means that we can reach the edge of the cylinder whose axis passes through it, with an altitude equal to or greater than the minimum arrival altitude, taking into account the wind but assuming that we fly <strong>hands up</strong> in no sinking air. While we are outside the destination waypoint, the application informs us when it becomes reachable or stops being reachable, without having to press any button, with the <strong>range change speech</strong>: <code>Over xxx</code> or <code>Below xxx</code> respectively.</p>
+<blockquote>
+<p><strong>Follow mode</strong> is used to maintain course to the destination waypoint without having to press any button. In this mode, when we deviate from the course, the application generates the change of course speech. If we correct it within 15 seconds we will hear the final glide speech. Otherwise we will exit follow mode.</p>
+</blockquote>
+<p>If we press the headphone button again, within 10 seconds of the first press, the application tells us the direction to the next waypoint in the task file. If we head towards it, we set it as the destination waypoint, skipping the current waypoint. If we want to skip more than one waypoint we will have to continue pressing, within 10 seconds of the previous press, once for each waypoint in the file, until we hear the course change speech to the waypoint that interests us. We will have 15 seconds from when we hear the speech, to set course for the waypoint and set it as the destination. At that moment we will hear the final glide speech and we will also enter follow mode to the new destination waypoint.</p>
+<p>Whether or not we have loaded a task file, the first waypoint that the application sets as the destination is the take-off. The takeoff location is registered as a waypoint with a 500 meter radius and an altitude margin of 0. The take-off waypoint is a special waypoint because, outside its radius, travel time and altitude of arrival are calculated to the center of the waypoint and not to its edge as is the case with the rest of the task waypoints. This is done to facilitate the <strong>top landing</strong>. When we cross out the radius of the takeoff waypoint we will hear a speech with the final glide to its center. To skip the takeoff waypoint and set the first waypoint of the task file as the destination waypoint, we will press the headset button as indicated in the previous paragraph. The rest of the waypoints in the task file will follow each other as destination waypoints as we reach them without having to press any button.</p>
 
 	  </div>
 	  <div class="post-comments">
@@ -290,14 +296,14 @@
 	    <div class="media">
 	      <a href="/#manual" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/tts_english.jpg" alt="App install prerrequisites">
+		<img class="media-object" src="/images/blog/tts_english.jpg" alt="App installation">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/#manual" class="">App install prerrequisites</a>
+		  <a href="/#manual" class="">App installation</a>
 		  
 		</h4>
-		<p>How to set the language of application and voice messages</p>
+		<p>Installation and language configuration.</p>
 	      </div>
 	    </div>
 	    
@@ -318,7 +324,7 @@
 	    <div class="media">
 	      <a href="/page/3/#manual" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/blog-post-3.jpg" alt="How To Wear Bright Shoes">
+		<img class="media-object" src="/images/blog/blog-post-5.jpg" alt="How To Wear Bright Shoes">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
@@ -332,7 +338,7 @@
 	    <div class="media">
 	      <a href="/page/4/#manual" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/blog-post-5.jpg" alt="How To Wear Bright Shoes">
+		<img class="media-object" src="/images/blog/blog-post-6.jpg" alt="How To Wear Bright Shoes">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
@@ -346,28 +352,28 @@
 	    <div class="media">
 	      <a href="/page/5/#manual" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/blog-post-6.jpg" alt="How To Wear Bright Shoes">
+		<img class="media-object" src="/images/blog/windmill.jpg" alt="Meteo wind">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/5/#manual" class="">How To Wear Bright Shoes</a>
+		  <a href="/page/5/#manual" class="">Meteo wind</a>
 		  
 		</h4>
-		<p>this is meta description</p>
+		<p>The airspace app indicates the pilot the strength and direction of the meteo wind</p>
 	      </div>
 	    </div>
 	    
 	    <div class="media">
 	      <a href="/page/6/#manual" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/windmill.jpg" alt="Meteo wind">
+		<img class="media-object" src="/images/blog/blog-post-3.jpg" alt="Navigation">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/6/#manual" class="current">Meteo wind</a>
+		  <a href="/page/6/#manual" class="current">Navigation</a>
 		  
 		</h4>
-		<p>The airspace app indicates the pilot the strength and direction of the meteo wind</p>
+		<p>Navigation through waypoints</p>
 	      </div>
 	    </div>
 	    

@@ -188,6 +188,84 @@
 </section>
 
 
+  <section class="page-title bg-2" style="background-image: url('https://flightcomp.github.io/images/featue-bg-mod.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Mapas de térmicas</h1>
+          <p>Localizador de térmicas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio-single-page section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <img class="img-responsive w-100" src="/images/portfolio/tecompensation-mod.jpg" alt="">
+      </div>
+      <div class="col-md-4">
+        <div class="project-details">
+          <h4>Detalles del artículo</h4>
+          <ul>
+	    <li><span>Autor:</span>
+	      
+	        <strong>Aitor Castro</strong>
+	      
+	    </li>
+	    <li><span>Términos:</span> <strong>compensación de energía, detector de térmicas</strong></li>
+	    <li><span>Dificultad:</span> <strong>Avanzado</strong></li>
+	    <li><span>Modificado:</span> <strong>
+    12 de Septiembre de 2018
+
+</strong></li>
+	    <li><span>Título:</span> <strong>Mapas de térmicas</strong></li>
+	    <li><span>Descripción:</span> <strong>Localizador de térmicas</strong></li>
+	    
+            <li><span>Habilidades:</span> <strong>Física</strong></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-content mt-50">
+          <p>Los mapas de térmicas muestran localizaciones donde hay una alta probabilidad de encontrar una térmica. Se construyen a partir de los tracks de vuelos reales subidos a distintas plataformas como xcontest, leonardo, etc. Las localizaciones hacen referencia a los puntos de disparo a nivel del suelo pero, a medida que ascienden, las térmicas no suben perfectamente verticales sino que se inclinan con el viento.</p>
+<p>El cálculo de la inclinación de una térmica es muy complejo: depende del viento y del gradiente de temperatura en las distintas capas de aire que la térmica va atravesando a medida que asciende. Un sondeo de la atmósfera a distintas alturas nos permitiría determinar la inclinación de la columna térmica y la ruta más corta para cruzarnos con ella. Aunque no podemos disponer de este sondeo, la deriva y la tasa de ascenso registrada en térmicas que vamos girando durante el vuelo son un buen predictor de la deriva y la tasa de ascenso de las térmicas que encontraremos más adelante, sobre todo cuanto más nos alejamos del suelo. Mientras giramos una térmica la aplicación va registrando la deriva y la tasa de ascenso y las utiliza para predecir la inclinación de la columna térmica que parte de cada uno de los puntos de disparo señalados por el mapa de térmicas.</p>
+<p>Al salir de la térmica y durante la transición la aplicación nos irá informando de las térmicas que podemos alcanzar desde nuestra posición. Para cada una de ellas nos dará el rumbo y el tiempo en segundos que tardaremos en alcanzarla.</p>
+<p>Se entiende que una térmica es alcanzable cuando disponemos de la altura suficiente para llegar a ella teniendo en cuenta el viento. En la mayor parte de los casos esto no es suficiente porque es necesario un cierto margen de altura sobre el suelo para poder girar una térmica o para poder buscar un aterrizaje en caso de que no la encontremos. Es posible especificar una altura mínima sobre el suelo para cada punto de disparo (hotspot) del mapa de térmicas. Si desde nuestra posición no podemos llegar a la columna térmica que nace en el hotspot con la altura mínima especificada para él, la térmica se considera no alcanzable y no se informa al piloto.</p>
+<p>En zonas de montaña la mayoría de los hotspots se situan a media ladera de una montaña. Estos hotspots sólo estarán activos cuando los rayos de sol incidan perpendicularmente sobre la ladera de la montaña. Es necesario conocer la orientación de la ladera y su inclinación para saber en que momento del día tienen alta probabilidad de estar activos. Si un hotspot es alcanzable pero está situado en una ladera sin insolación, no se notificará al piloto.</p>
+<p>Un hotspot situado a media ladera de una montaña insolada puede no ser alcanzable si estamos a sotavento de la ladera el rotor del viento</p>
+<h2 id="fichero-de-localizaciones-">Fichero de localizaciones</h2>
+<p>Un fichero de térmicas es como un fichero con balizas en cualquiera de los formatos habituales pero es necesario añadir algunos elementos más para cada baliza. El primer elemento es la altitud mínima sobe la baliza. En el caso de un hotspot a media ladera la altitud mínima de llegada es cero así que el primer número representa la altitud máxima de la ladera. El segundo número indica la distancia que hay desde el despegue a la cima de la ladera medida horizontalmente y no sobre el terreno. El tercer número es un entero entre 0 y 360 que representa la orientación de la ladera en grados a la derecha del Norte. El cuarto número señala la altitud de la parte más baja de la ladera. La diferencia entre el primer número y el cuarto es la altura de la montaña. El doble de esta altura será la altitud a superar cuando el hotspot esté insolado pero a sotavento.</p>
+<p>Cualquier piloto conoce el efecto del gradiente de viento al aterrizar. El viento de cara disminuye a medida que el planeador desciende debido a la fricción que se produce con la superficie de la tierra. El resultado es que la tasa de descenso se incrementa significativamente para recuperar la velocidad aire que se pierde y en casos extremos el planeador puede entrar en pérdida. Es todavía peor si entramos al aterrizaje haciendo un giro cerrado. Hay menos viento en la semiala que está más cerca del suelo haciendo que el ala se incline más de lo esperado.</p>
+<p>Un incremento del viento de cara causa el efecto opuesto. La velocidad aire aumenta así que hay una ganancia de energía cinética. El vario de energía total ve esta ganancia de energía exactamente igual que una ganancia de altitud a velocidad constante. El variómetro de energía total no puede diferenciar entre los dos tipos de ganancia de energía. Poco después el planeador restablece la velocidad aire que llevaba provocando una ganancia de altura, esta vez, detectada por el vario normal que le lleva a pensar que ha encontrado una térmica.</p>
+<p><code>El variómetro de energía total de Airspace no tiene en cuenta las variaciones de energía cinética debidas a rachas de viento horizontal.</code></p>
+<p>Un cambio en la velocidad aire, que representaremos como dV, da como resultado un cambio de energía cinética m∙V∙dV. Para que la energía total permanezca constante debe haber un cambio en la energía potencia igual y de sentido opuesto m∙g∙dH donde g es la constante de gravitación y dH es la ganacia de altitud.</p>
+<p>$$m \cdot V \cdot dV + m \cdot g \cdot dH = 0 \Rightarrow dH = -\frac{V \cdot dV}{g}$$</p>
+<p>Esta <strong>tasa de ascenso ficticia</strong> se descuenta de la tasa de ascenso del vario obteniendo la <strong>tasa de ascenso total</strong> que sirve para detectar movimientos verticales del aire. La tasa de ascenso total deja de indicar la tasa de ascenso de nuestra aeronave salvo en el caso de velocidad aire constante y ausencia de rachas de viento horizontales. Muchos pilotos echan de menos la indicación de la tasa de ascenso del planeador así que en Airspace hemos buscado la manera de dar ambas indicaciones al piloto de una forma audible:</p>
+<blockquote>
+<p>La frecuencia y duración de los tonos del vario sigue siendo la que corresponde a la tasa de ascenso del planeador y cuando la tasa de ascenso ficticia es negativa se produce un aumento brusco en la frecuencia de los tonos para indicar al piloto que la ascendencia es real. Una tasa de ascenso total positiva a pesar de estar descendiendo es una buena indicación de la proximidad de una térmica. En ese caso la aplicación informará al piloto con un tono especial. Es lo que en airspace llamamos <strong>detector de térmicas</strong></p>
+</blockquote>
+<h2 id="referencias-bibliográficas-">Referencias bibliográficas</h2>
+<ol>
+<li>François Ragot. Unsuitability of existing TE variometers for dynamic soaring. Congreso OSTIV 1981.</li>
+<li>Rudolf Brözel. Total energy Kompensation. Septiembre 1985.</li>
+<li>Taras Kiceniuk. A variometer for dynamic soaring. Technical Soaring, volumen 25, número 4, Octubre 2001.</li>
+<li>François Ragot. Best speed story, página 12, columna izquierda, Technical Soaring, volumen 28, Números 1 /2, Enero/Abril 2004.</li>
+</ol>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 	
 
 

@@ -22,12 +22,12 @@
     </item>
     
     <item>
-      <title>How To Wear Bright Shoes</title>
+      <title>Comunicacion con la aplicación</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-6/</link>
       <pubDate>Thu, 20 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-6/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+      <description>La aplicación informa al piloto a través de un mensaje vocal de los cambios en las variables del vuelo que puedan ser relevantes de forma automática pero el piloto también puede solicitar a la aplicación información sobre algunas de estas variables pulsando el botón multimedia de sus auriculares o altavoz bluetooth.</description>
     </item>
     
   </channel>
