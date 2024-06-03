@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>curva polar on Airspace</title>
+    <title>Curva polar on Airspace</title>
     <link>https://flightcomp.github.io/es/tags/curva-polar/</link>
-    <description>Recent content in curva polar on Airspace</description>
+    <description>Recent content in Curva polar on Airspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) Todos los derechos reservados</copyright>
-    <lastBuildDate>Wed, 12 Sep 2018 12:52:36 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 21 Sep 2018 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://flightcomp.github.io/es/tags/curva-polar/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Curva polar</title>
+      <link>https://flightcomp.github.io/es/blog/blog-post-5/</link>
+      <pubDate>Fri, 21 Sep 2018 11:07:10 +0600</pubDate>
+      
+      <guid>https://flightcomp.github.io/es/blog/blog-post-5/</guid>
+      <description>La curva polar de un planeador es una gráfica que representa la tasa de caída de nuestro planeador en función de la velocidad aire en condiciones de aire neutro (sin ascendencias ni descendencias).</description>
+    </item>
     
     <item>
       <title>Planear mas lejos</title>

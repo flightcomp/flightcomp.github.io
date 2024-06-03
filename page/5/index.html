@@ -228,7 +228,7 @@
 
         
         <div class="post post-single">
-	  <h2 class="post-title">Meteo wind</h2>
+	  <h2 class="post-title">Polar curve</h2>
       	  <div class="post-meta">
 	      <ul>
 		<li><i class="ion-calendar"></i> 
@@ -237,23 +237,75 @@
 </li>
 		<li><i class="ion-pricetags"></i> 
 		  
-		  <a href="/tags/meteo-wind">Meteo wind</a>
+		  <a href="/tags/manual">Manual</a>
+		  
+		  , <a href="/tags/polar-curve">Polar curve</a>
 		  
 		</li>
     	      </ul>
 	  </div>
 	  <div class="post-thumb">
-	    <img class="img-responsive" src="/images/blog/windmill.jpg" alt="Meteo wind">
+	    <img class="img-responsive" src="/images/blog/polar_puntos_en.png" alt="Polar curve">
 	  </div>
 	  <div class="post-content post-excerpt">
-	    <p>The airspace app uses gps readings to calculate the prevailing wind speed and direction during the flight. To ensure a reliable estimation it&rsquo;s necessary a minimum number of samples in a wide range of directions of flight. That&rsquo;s why the calculation may take over 10 minutes.</p>
-<p>When the app has finished the calculations it informs the pilot with a speech like:</p>
-<p><code>Wind: 10 kilometers per hour from northwest</code></p>
+	    <p>The <code>polar curve</code> of a glider is a graph that represents the sink rate of our glider as a function of air speed in neutral air conditions (without rises or falls). It is necessary to supply the polar curve of your glider to the application for the speed control to work correctly</p>
 <blockquote>
-<p>The unit of measure for the wind strength is the same used to measure the speed and can be modified in the user preferences screen. The wind direction resolution is 22.5º because there are 16 possible directions: North, North-northeast, Northeast, East-northeast, East, &hellip;</p>
+<p>Keep in mind that the polar curve varies with wing loading and altitude (changes in air density). The application makes the necessary adjustments to adapt the curve to the flight altitude. You must specify the points of the polar curve for the actual in-fligth load in neutral air at sea level. The speed can vary by several km/h within the weight range of your wing as well as the sink rate.</p>
 </blockquote>
-<p>If the prevailing wind direction or strength changes in more than 5 kmh during the flight the app will be reported to the pilot with one speech. If there are not significant changes the app will repeat the speech every 10 minutes. This changes in the wind can be due to weather changes or to the fact that the pilot has moved to a different zone. Wind changes are frequent when we ascend or descend in altitude. Airspace app uses an adaptative time window to reach a compromise among reliability and response time.</p>
-<p>This wind estimation is the base of another estimations made by the app like the time and altitude needed to reach a waypoint.</p>
+<p><code>What is speed control?</code> Speed ​​control is a series of speeches or voice messages that the application generates to tell you the speed at which you should fly to maximize glide. These messages do not directly tell you the ground speed at which you should fly, because that would mean that you would have to constantly look at the GPS to adjust the speed, but rather the flight setting that you should have.</p>
+<p><code>What is a flight setting?</code> A flight setting is a specific configuration of the controls you have on your wing. In the case of paragliding these controls are the brakes and the speed bar. Each flight setting corresponds to a specific point on the polar curve and therefore to a specific airspeed and sink rate in neutral air. The application differentiates between four different flight settings designed primarily for paragliding:</p>
+<ul>
+<li>
+<p><strong>Minimum sink</strong>: It is the pre-stall flight setting in which the glider floats at its maximum. This point is the one at which the polar curve reaches its maximum. The speed control will recommend you that you should fly at this speed with the message: <code>Brake one</code></p>
+</li>
+<li>
+<p><strong>Best glide</strong>: It is the flight settings in which the wing reaches maximum glide. In a paraglider this configuration is achieved by releasing the brakes. The speed control will tell you that you should fly at this speed with the message: <code>Trim speed</code></p>
+</li>
+<li>
+<p><strong>Half speed bar</strong>: It is an accelerated flight configuration, but not to the maximum. In this configuration the sink rate is higher than that of the best glide but it is not excessive so as not to penalize the glide too much. The speed control will tell you that you should fly at this speed with the message: <code>Speed up one</code></p>
+</li>
+<li>
+<p><strong>Full speed</strong>: It is the flight configuration in which you go on full speed bar, bringing the wing to reach the maximum speed and also the highest sink rate. The speed control will tell you that you should fly at this speed with the message: <code>Speed up two</code></p>
+</li>
+</ul>
+<p>Each of these settings is represented as a point on the graph above. It is these four points of the porlar curve of our wing that we will have to supply to the application. Actually what we will have to supply is the air speed and the sink rate for each point. In total 8 numbers.</p>
+<p>This approach to flight control has many advantages but it also has a drawback: It is not exact. Let me explain: The optimal flight speed to maximize gliding can be any point within the speed range of our wing. If this point is between two flight settings, the application chooses the one that is closest to the optimal one. In the graph above: Suppose the optimal flight speed was 42 kmh. The application would generate the message: &ldquo;Trim speed&rdquo; although the air speed of this setting is 39 kmh and not 42 kmh. In the case of a paraglider, the distance in kmh between the two sequential flight settings is around 15 kmh and therefore the maximum error in speed that we can make using this approach is 7.5 kmh.</p>
+<blockquote>
+<p>We have plans to add the option to maximize speed in future versions of the application. It is what we know as the MacReady ring. It is used in competition when what we want is not to go as far as possible but as soon as possible.</p>
+</blockquote>
+<h3 id="how-do-we-supply-the-curve-points-to-the-application">How do we supply the curve points to the application?</h3>
+<ol>
+<li>
+<p>Open the application drop-down menu by clicking on the three dots at the top right of the screen or on the floating blue button at the bottom right of the screen.</p>
+</li>
+<li>
+<p>We select <code>settings</code> option.</p>
+</li>
+<li>
+<p>In the settings screen scroll down until you see the option <code>wing specifications</code> and we click on there</p>
+</li>
+<li>
+<p>In the wing specifications screen we can specify our wing model, if we would use it for free or powered flight and there si also one section for each of the four flight settings noted above.</p>
+</li>
+<li>
+<p>There are two subsections in each one called <code>Speed</code> and <code>Sink rate</code>. Clicking on them it will open an edit box where you can enter the corresponding value using a decimal number. <strong>Please be careful that a point and not a comma is used as separator for the decimal places</strong>. Click on <code>OK</code> to set the new value.</p>
+<p>Suppose that the points of the polar curve corresponding to each of the configurations are those in the graph above, that the unit of speed is km/h and the unit of altitude is meters. Then the values that we would have to enter would be:</p>
+<pre><code>Minimum sink(Speed): 32
+Minimum sink(Sink rate): 1.1
+Best glide(Speed): 39
+Best glide(Sink rate): 1.2
+Half speed bar(Speed): 46
+Half speed bar(Sink rate): 1.55
+Full speed(Speed): 53
+Full speed(Sink rate): 2.25
+</code></pre><p>Para modificar las unidades en las que introduces la información y recibes los datos de los mensajes vocales de la aplicación consulta esta <a href="/es/page/4/#project">página</a>.</p>
+</li>
+<li>
+<p>Once you have entered all the corresponding speeds and sink rates, you must click on the Android navigation button &lsquo;Back&rsquo; twice, until you return to the main screen of the application, for the changes to be applied. At that point the application might display a dialog like this:</p>
+<pre><code>Some settings cannot be applied, using defaults
+</code></pre><p>It means that the data you have entered is not correct because it cannot belong to the polar curve of a glider. The polar curve is a concave and decreasing curve. If the points you have supplied cannot fit into a concave and decreasing curve, they will not be accepted and the original points will be restored.</p>
+</li>
+</ol>
 
 	  </div>
 	  <div class="post-comments">
@@ -322,7 +374,7 @@
 	    <div class="media">
 	      <a href="/page/3/#manual" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/blog-post-5.jpg" alt="How To Wear Bright Shoes">
+		<img class="media-object" src="/images/blog/blog-post-6.jpg" alt="How To Wear Bright Shoes">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
@@ -336,28 +388,28 @@
 	    <div class="media">
 	      <a href="/page/4/#manual" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/blog-post-6.jpg" alt="How To Wear Bright Shoes">
+		<img class="media-object" src="/images/blog/windmill.jpg" alt="Meteo wind">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/4/#manual" class="">How To Wear Bright Shoes</a>
+		  <a href="/page/4/#manual" class="">Meteo wind</a>
 		  
 		</h4>
-		<p>this is meta description</p>
+		<p>The airspace app indicates the pilot the strength and direction of the meteo wind</p>
 	      </div>
 	    </div>
 	    
 	    <div class="media">
 	      <a href="/page/5/#manual" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/windmill.jpg" alt="Meteo wind">
+		<img class="media-object" src="/images/blog/polar_puntos_en.png" alt="Polar curve">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/5/#manual" class="current">Meteo wind</a>
+		  <a href="/page/5/#manual" class="current">Polar curve</a>
 		  
 		</h4>
-		<p>The airspace app indicates the pilot the strength and direction of the meteo wind</p>
+		<p>this is meta description</p>
 	      </div>
 	    </div>
 	    
@@ -575,6 +627,8 @@
             <li><a href="/faq">FAQ</a></li>
             
             <li><a href="/privacy-policy">Privacy policy</a></li>
+            
+            <li><a href="/terms-conditions">Terms of use</a></li>
             
 	  </ul>
 	</div>
