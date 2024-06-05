@@ -7,22 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 24 Sep 2018 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 25 Sep 2018 11:07:10 +0600</lastBuildDate>
     
 	<atom:link href="https://flightcomp.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>App installation</title>
+      <title>Introduction</title>
       <link>https://flightcomp.github.io/blog/blog-post-1/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/blog/blog-post-1/</guid>
-      <description>Since the communication of the application with the pilot is carried out through voice messages, it is necessary to have the voice synthesis engine of your device correctly configured by installing the voice synthesis files corresponding to English, Spanish or Portuguese, which are the languages ​​supported by the application.</description>
+      <description>This is the first article in the manual of installation, configuration and use of the Free Flight Variometer app. This app helps you to find thermals that trigger near your position during an XC flight.</description>
     </item>
     
     <item>
-      <title>How To Wear Bright Shoes</title>
+      <title>Main screen</title>
       <link>https://flightcomp.github.io/blog/blog-post-2/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
@@ -31,18 +31,18 @@
     </item>
     
     <item>
-      <title>How To Wear Bright Shoes</title>
-      <link>https://flightcomp.github.io/blog/blog-post-6/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <title>Voice messages</title>
+      <link>https://flightcomp.github.io/blog/blog-post-3/</link>
+      <pubDate>Sun, 23 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://flightcomp.github.io/blog/blog-post-6/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+      <guid>https://flightcomp.github.io/blog/blog-post-3/</guid>
+      <description>The application allows you to load task file with waypoints in order to make a route that passes through them. A waypoint is described by its name (xxx), latitude, longitude, radius, altitude, and altitude margin.</description>
     </item>
     
     <item>
-      <title>Meteo wind</title>
+      <title>Settings</title>
       <link>https://flightcomp.github.io/blog/blog-post-4/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Sat, 22 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/blog/blog-post-4/</guid>
       <description>The airspace app uses gps readings to calculate the prevailing wind speed and direction during the flight. To ensure a reliable estimation it&amp;rsquo;s necessary a minimum number of samples in a wide range of directions of flight.</description>
@@ -51,19 +51,19 @@
     <item>
       <title>Polar curve</title>
       <link>https://flightcomp.github.io/blog/blog-post-5/</link>
-      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <pubDate>Fri, 21 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/blog/blog-post-5/</guid>
       <description>The polar curve of a glider is a graph that represents the sink rate of our glider as a function of air speed in neutral air conditions (without rises or falls).</description>
     </item>
     
     <item>
-      <title>Navigation</title>
-      <link>https://flightcomp.github.io/blog/blog-post-3/</link>
-      <pubDate>Sun, 23 Sep 2018 11:07:10 +0600</pubDate>
+      <title>Subscription</title>
+      <link>https://flightcomp.github.io/blog/blog-post-6/</link>
+      <pubDate>Thu, 20 Sep 2018 11:07:10 +0600</pubDate>
       
-      <guid>https://flightcomp.github.io/blog/blog-post-3/</guid>
-      <description>The application allows you to load task file with waypoints in order to make a route that passes through them. A waypoint is described by its name (xxx), latitude, longitude, radius, altitude, and altitude margin.</description>
+      <guid>https://flightcomp.github.io/blog/blog-post-6/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
     </item>
     
   </channel>

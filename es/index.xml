@@ -13,16 +13,16 @@
     
     
     <item>
-      <title>Instalando la app</title>
+      <title>Introducción</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-1/</link>
       <pubDate>Tue, 25 Sep 2018 11:07:10 +0600</pubDate>
       
       <guid>https://flightcomp.github.io/es/blog/blog-post-1/</guid>
-      <description>Dado que la comunicación de la aplicación con el piloto se lleva a cabo por medio de mensajes vocales es necesario tener configurado correctamente el motor de síntesis de voz de su dispositivo instalando los archivos de síntesis de voz correspondientes al inglés, castellano o portugués que son los idiomas que soporta la aplicación.</description>
+      <description>Este es el primer artículo del manual de instalación, configuración y uso de la app Variómetro de vuelo libre. Esta aplicación te ayudará a localizar las térmicas que se disparan cerca de tu posición durante un vuelo de XC.</description>
     </item>
     
     <item>
-      <title>Idiomas</title>
+      <title>Pantalla principal</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-2/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
       
@@ -31,7 +31,7 @@
     </item>
     
     <item>
-      <title>Navegación</title>
+      <title>Mensajes de voz</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-3/</link>
       <pubDate>Sun, 23 Sep 2018 11:07:10 +0600</pubDate>
       
@@ -40,7 +40,7 @@
     </item>
     
     <item>
-      <title>Viento meteo</title>
+      <title>Ajustes</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-4/</link>
       <pubDate>Sat, 22 Sep 2018 11:07:10 +0600</pubDate>
       
@@ -58,7 +58,7 @@
     </item>
     
     <item>
-      <title>Comunicacion con la aplicación</title>
+      <title>Suscripción</title>
       <link>https://flightcomp.github.io/es/blog/blog-post-6/</link>
       <pubDate>Thu, 20 Sep 2018 11:07:10 +0600</pubDate>
       

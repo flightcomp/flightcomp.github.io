@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es-es"><head>
   <meta charset="utf-8">
-  <title>Instalando la app</title>
+  <title>Introducción</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Instalación y configuración del idioma.">
+  <meta name="description" content="Instalación de la app y primeros pasos.">
   <meta name="author" content="Aitor Castro">
   <meta name="generator" content="Hugo 0.69.2" />
 
@@ -128,8 +128,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Instalando la app</h1>
-          <p>Instalación y configuración del idioma.</p>
+          <h1>Introducción</h1>
+          <p>Instalación de la app y primeros pasos.</p>
         </div>
       </div>
     </div>
@@ -142,7 +142,7 @@
     <div class="row">
       <div class="col-md-8">
 	<div class="post post-single">
-	  <h2 class="post-title">Instalando la app</h2>
+	  <h2 class="post-title">Introducción</h2>
       	  <div class="post-meta">
 	      <ul>
 		<li><i class="ion-calendar"></i> 
@@ -153,23 +153,62 @@
 		  
 		  <a href="/es/tags/android-app">Android app</a>
 		  
-		  , <a href="/es/tags/acoustic-variometer">Acoustic variometer</a>
+		  , <a href="/es/tags/vari%c3%b3metro">Variómetro</a>
 		  
 		</li>
     	      </ul>
 	  </div>
 	  <div class="post-thumb">
-	    <img class="img-responsive" src="/images/blog/tts_spanish.jpg" alt="Instalando la app">
+	    <img class="img-responsive" src="/images/blog/mobiles_bluefly.png" alt="Introducción">
 	  </div>
 	  <div class="post-content post-excerpt">
-	    <p>Dado que la comunicación de la aplicación con el piloto se lleva a cabo por medio de mensajes vocales es necesario tener configurado correctamente el motor de síntesis de voz de su dispositivo instalando los archivos de síntesis de voz correspondientes al inglés, castellano o portugués que son los idiomas que soporta la aplicación. Si la configuración regional de su dispositivo coincide con alguno de esos idiomas ese será el idioma predeterminado que utilizará la aplicación. En caso contrario utilizará el inglés como idioma predeterminado. En el siguiente paso la aplicación busca algún archivo de síntesis de voz correspondiente al idioma predeterminado. Si no lo encuentra mostrará un mensaje de error indicándole que debe instalarlo y reiniciar la aplicación.<!-- raw HTML omitted --></p>
+	    <p>Este es el primer artículo del manual de instalación, configuración y uso de la app <strong>Variómetro de vuelo libre</strong>. Esta aplicación te ayudará a localizar las térmicas que se disparan cerca de tu posición durante un vuelo de XC. Te indica donde están con mensajes de voz como: &ldquo;Térmica a la derecha/izquierda&rdquo; o &ldquo;Térmica delante/detrás&rdquo;. También te indica la dirección y la intensidad del viento y la velocidad óptima de vuelo con cuatro mensajes de voz: &ldquo;Frena uno&rdquo;, &ldquo;Frenos libres&rdquo;, &ldquo;Acelera uno&rdquo; y &ldquo;Acelera dos&rdquo; que se corresponden con cada una de estas configuraciones de vuelo: tasa de caída mínima, mejor planeo, medio acelerador y acelerador a fondo. Es imprescindible que suministres en la pantalla de configuración de la aplicación la velocidad y la tasa de caída de tu ala en aire en calma para cada una de esas cuatro configuraciones. Para que funcione el localizador de térmicas tendrás que volar a la velocidad que la aplicación te indique.</p>
+<p>La filosofía de la aplicación es sustituir la interacción visual con tu dispositivo por una interacción auditiva basada en sonidos y mensajes de voz. No necesitas tener la pantalla del móvil encendida ni llevarlo a la vista durante el vuelo sino en un bolsillo de tu arnés, lo cual aporta comodidad (no necesitas llevar portainstrumentos) y autonomía (la pantalla encendida consume mucha batería). Para que el localizador de térmicas funcione correctamente es importante que el dispositivo esté sujeto al arnés de vuelo y no a tu ropa.</p>
+<p>Existen kits de auriculares, con cables o inalámbricos, para equipar tu casco, que te permitirán interactuar con la aplicación, contestar llamadas e incluso conectar una radio durante el vuelo.</p>
+<p>La aplicación utiliza el sensor barométrico y la brújula de tu dispositivo. Por eso es recomendable mantenerlo alejado de campos electromagnéticos durante el vuelo. Si tu dispositivo no dispone de barómetro integrado puedes utilizar el módulo externo Bluefly vario con el que la aplicación es compatible.</p>
+<p>Para evitar que el teléfono entre en modo bajo consumo al ejecutar la aplicación con la pantalla apagada, habilita el inicio automático y deshabilita las optimizaciones de consumo de batería para esta app.</p>
+<h2 id="requisitos-previos">Requisitos previos</h2>
+<p>En primer lugar vamos a ver que elementos hardware y software son imprescindibles para instalar la aplicación. Si has sido capaz de instalar y descargar la aplicación desde Google Play Store es que tu teléfono o tablet cumple la mayoría de estos requisitos porque de lo contrario el cliente Google Play de tu dispositivo no te permitiría instalarla.</p>
+<h3 id="requisitos-hardware">Requisitos hardware</h3>
+<ul>
+<li>Acelerómetro</li>
+<li>Giroscopio</li>
+<li>Brújula</li>
+<li>GPS</li>
+<li>Barómetro integrado o sensor de presión externo BlueFly vario</li>
+</ul>
+<h3 id="requisitos-software">Requisitos software</h3>
+<ul>
+<li>Versión de android 5 (LOLLIPOP) o más</li>
+</ul>
+<h2 id="primeros-pasos-tras-abrir-la-aplicación">Primeros pasos tras abrir la aplicación</h2>
+<p>Una vez instalada la aplicación procedemos a abrirla. Los pasos que se detallan a continuación sólo es necesario llevarlos a cabo la primera vez que se abre la aplicación.</p>
+<h3 id="restricciones-de-batería">Restricciones de batería</h3>
+<p>En primer lugar la app muestra un cuadro de diálogo que pone:</p>
+<pre><code>El sistema parará el GPS o cerrará la aplicación si se apaga la pantalla o queda la aplicación en segundo plano.
+Para mantener la aplicación siempre en funcionamiento, añade una excepción en la opción de optimización de la batería.
+</code></pre><p>A continuación un asistente nos lleva a los ajustes de otimización de batería para esta aplicación y deberemos seleccionar la opción <code>Sin restricciones</code> para que el sistema operativo no ponga la aplicación en modo de bajo consumo al apagar la pantalla. Tienes que pensar que hemos diseñado la aplicación para usarla con la pantalla del dispositivo apagada reduciendo al mínimo el consumo de batería. Si no hemos desactivado las restricciones de batería para una aplicación, cuando deja de estar en primer plano o apagamos el dispositivo, el sistema operativo android pone esa aplicación en modo bajo consumo restringiendo su acceso a los sensores del dispositivo. De suceder esto, nuestra aplicación dejaría de funcionar correctamente así que lo primero que tenemos que hacer es desactivar las restricciones de batería para nuestra aplicación.</p>
+<h3 id="permiso-para-acceder-a-la-ubicación">Permiso para acceder a la ubicación</h3>
+<p>En segundo lugar la aplicación solicita permiso para acceder al sensor gps de tu dispositivo. Basta con que lo permitas mientras la aplicación se está ejecutando.</p>
+<h3 id="inicio-automático">Inicio automático</h3>
+<p>El siguiente cuadro de diálogo pone:</p>
+<pre><code>Habilita el inicio automático, deshabilita la optimización de batería e introduce los puntos de la curva polar de tu ala antes de volar.
+</code></pre><p>De las tres indicaciones que nos da en este aviso la segunda la hemos tratado en el punto anterior la última está desarrollada en este <a href="/es/page/5/#project">artículo</a> y podemos dejarla para más adelante, y la primera la veremos ahora mismo. Está muy relacionada con la deshabilitación de las restricciones de batería. En determinadas condiciones es posible que el sistema operativo cierre una aplicación para liberar recursos. La aplicación está diseñada para reiniciarse automáticamente en estos casos (poco habituales) pero no podrá hacerlo si no permitimos el <code>Inicio Automático</code>. Ten en cuenta que durante el vuelo y con unos guantes puestos no es factible sacar el dispositivo y reiniciar la aplicación manualmente.</p>
 <blockquote>
-<p>Un archivo de síntesis de voz es un fichero que sirve para que el motor de síntesis de voz pueda generar mensajes vocales audibles a partir de un texto. Cada archivo de síntesis de voz irá asociado a un idioma y dialecto.</p>
+<p>Tendrás que consultar donde se encuentra la opción para permitir el inicio automático de una aplicación en tu teléfono y permitirlo para evitar que la aplicación deje de funcionar durante el vuelo.</p>
 </blockquote>
-<p>Si desea cambiar el idioma predeterminado por alguno de los otros dos idiomas que soporta la aplicación podrá modificarlo en la opción <strong>Idioma</strong> de la pantalla de ajustes. La aplicación buscará a continuación un archivo de síntesis de voz correspondiente al idioma que haya seleccionado. Si no lo encuentra mostrará un mensaje de error indicándole que debe instalarlo y reiniciar la aplicación.<!-- raw HTML omitted --></p>
+<h3 id="archivos-de-síntesis-de-voz">Archivos de síntesis de voz</h3>
+<p>La aplicación está disponible en tres idiomas: <code>Inglés, castellano y portugués</code>. Si vives en un país en el que se hable alguna de estas tres lenguas los menús de la aplicación se mostrarán en el idioma de tu país. Si no es este el caso, el idioma por defecto de los menús será el Inglés.</p>
+<p>Si deseas cambiar el idioma predeterminado por alguno de los otros dos idiomas que soporta la aplicación podrás modificarlo en la opción <strong>Idioma</strong> de la pantalla de ajustes. A veces es necesario reiniciar la aplicación para que el cambio tenga efecto.</p>
+<p>La aplicación necesita la presencia de algún archivo de datos de síntesis de voz para poder generar mensajes vocales. Naturalmente la aplicación tratará de que el idioma de los mensajes vocales coincida con el idioma de los menús. Por eso buscará siempre un archivo de datos de síntesis de voz para el idioma seleccionado en las preferencias. Si no lo encuentra mostrará un mensaje de error indicándote que debes instalarlo y reiniciar la aplicación.</p>
+<p>Un archivo de síntesis de voz es un fichero que sirve para que el motor de síntesis de voz pueda generar mensajes vocales audibles a partir de un texto. Cada archivo de síntesis de voz irá asociado a un idioma y dialecto. En la pantalla principal, debajo del epígrafe <strong>Idioma del locutor</strong> se muestra el idioma de los mensajes de voz o bien <code>Faltan archivos de idioma</code> si no hay ningún archivo de síntesis de voz instalado en el dispositivo.</p>
+<h2 id="conectar-un-barómetro-externo">Conectar un barómetro externo</h2>
+<p>Llegado este punto si hay un sensor barométrico integrado en el dispositivo deberías estar oyendo los tonos del vario. Si no tienes ningún sensor barométrico en el dispositivo la pantalla principal de la aplicación mostrará el mensaje <strong>Vaya al menú o presione el botón del microaltavoz para iniciar el Módulo bluefly</strong> en el apartado <strong>Sensor de presión</strong>. El módulo <a href="https://www.blueflyvario.com/">BlueFlyVario</a> es el único sensor de presión externo que soporta la aplicación en estos momentos. Es un módulo hardware con un sensor de presión que se conecta al dispositivo por Bluetooth. Para conectarlo enciende el módulo, vete al menú de la aplicación y selecciona la opción <code>Conecta un barómetro</code>. Se abrirá el gestor de dispositivos bluetooth de tu teléfono para que emparejes el dispositivo y si todo va bien empezarás a oir los tonos del vario en la aplicación en lugar de oírlos en el módulo BlueFlyVario. Ten en cuenta que este paso sólo tendrás que hacerlo la primera vez que te conectes al BlueFlyVario. Desde ese momento la dirección hardware del módulo BlueFlyVario quedará registrada en la aplicación y al abrirla intentará conectarse automáticamente a él.</p>
 <blockquote>
-<p>En la pantalla principal, debajo del epígrafe <strong>Idioma del locutor</strong> se muestra el idioma de los mensajes de voz o bien <code>Faltan archivos de idioma</code> si no hay ningún archivo de síntesis de voz instalado en el dispositivo.</p>
+<p>Si hay un barómetro interno en tu teléfono será el barómetro predeterminado pero, si el barómetro de tu dispositivo no es suficientemente preciso, puedes establecer un barómetro externo como predeterminado en la pantalla de preferencias.</p>
 </blockquote>
+<h2 id="listo-para-despegar">Listo para despegar</h2>
+<p>Esta es la alocución que oirás si el barómetro está conectado y el GPS ha localizado el número suficiente de satélites para triangular tu posición. En caso de que el GPS no esté encendido se mostrará un enlace que te llevará a la pantalla de android donde encenderlo. Tras iniciar el GPS la localización de satélites puede llevar un tiempo. Asegurate de tener visión directa de una porción de cielo lo más amplia posible. Tras oir la alocución <code>Listo para despegar</code> los tonos del vario se silencian hasta que tu velocidad pasa de 10 kmh, señal de que has despegado. Esto se hace así para facilitar la concentración durante el despegue pero puedes evitar que el vario se detenga mientras despegas cambiándolo en las preferencias.</p>
 
 	  </div>
 	  <div class="post-comments">

@@ -228,34 +228,73 @@
 
         
         <div class="post post-single">
-	  <h2 class="post-title">App installation</h2>
+	  <h2 class="post-title">Introduction</h2>
       	  <div class="post-meta">
 	      <ul>
 		<li><i class="ion-calendar"></i> 
-    September 24, 2018
+    September 25, 2018
 
 </li>
 		<li><i class="ion-pricetags"></i> 
 		  
 		  <a href="/tags/android-app">Android app</a>
 		  
-		  , <a href="/tags/acoustic-variometer">Acoustic variometer</a>
+		  , <a href="/tags/vari%c3%b3metro">Variómetro</a>
 		  
 		</li>
     	      </ul>
 	  </div>
 	  <div class="post-thumb">
-	    <img class="img-responsive" src="/images/blog/tts_english.jpg" alt="App installation">
+	    <img class="img-responsive" src="/images/blog/mobiles_bluefly.png" alt="Introduction">
 	  </div>
 	  <div class="post-content post-excerpt">
-	    <p>Since the communication of the application with the pilot is carried out through voice messages, it is necessary to have the voice synthesis engine of your device correctly configured by installing the voice synthesis files corresponding to English, Spanish or Portuguese, which are the languages ​​supported by the application. If your device&rsquo;s regional settings match any of those languages, that will be the default language the app will use. Otherwise it will use English as the default language. In the next step, the application looks for a voice synthesis file corresponding to the default language. If it cannot be found, it will display an error message telling you that you must install it and restart the application.<!-- raw HTML omitted --></p>
+	    <p>This is the first article in the manual of installation, configuration and use of the <strong>Free Flight Variometer</strong> app. This app helps you to find thermals that trigger near your position during an XC flight. The app shows you where them are with voice messages like: &ldquo;Thermal to the right/left&rdquo; or &ldquo;Thermal ahead/behind&rdquo;. It also gives you the wind speed and direction as well as the optimal speed to fly through voice messages like: &ldquo;Brake one&rdquo;, &ldquo;Trim speed&rdquo;, &ldquo;Speed up one&rdquo; and &ldquo;Speed up two&rdquo; that correspond to each of these flight configurations: minimum sink rate, best glide rate, half accelerated and full accelerated. You must enter your wing&rsquo;s sink rate and speed in calm air, for this four configurations, in the app settings screen. For thermal finder function to work properly you must fly at the app recommended speed.</p>
+<p>The philosophy behind this app is to replace the visual interaction with your device by audio interaction composed of sounds and voice messages. That&rsquo;s why you won&rsquo;t need to leave the screen of your phone on or keep it in sight during the flight, but inside a pocket of your flight harness, which brings freedom (no cockpit nor spare batteries) to your flights. For the thermal finder function to work properly it&rsquo;s important that the phone be attached to your harness rather than to your clothes.</p>
+<p>There are wired and wireless headset helmet kits that will allow you to interact with the app, answer phone calls and even connect a handheld transceiver during the flight.</p>
+<p>The app uses the built-in barometer and compass sensor of your phone.  Therefore it&rsquo;s recommended to keep your phone away from electromagnetic fields during the flight. In the event that your phone didn&rsquo;t have a built-in barometer the app supports the Bluefly external barometer module.</p>
+<p>To avoid your phone entering in sleep mode while running the app with the screen off, set autostart mode on and disable battery optimizations for the app.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>First of all, we are going to see what hardware and software elements are essential to install the application. If you have been able to install and download the application from the Google Play Store, your phone or tablet meets most of these requirements because otherwise the Google Play client on your device would not allow you to install it.</p>
+<h3 id="hardware-requirements">Hardware requirements</h3>
+<ul>
+<li>Accelerometer</li>
+<li>Giroscope</li>
+<li>Compass</li>
+<li>GPS</li>
+<li>Built-in barometer or BlueFlyVario external module with barometer.</li>
+</ul>
+<h3 id="software-requirements">Software requirements</h3>
+<ul>
+<li>Android version 5 (LOLLIPOP) or above</li>
+</ul>
+<h2 id="first-steps-after-opening-the-app">First steps after opening the app</h2>
+<p>Once the application is installed, we proceed to open it. The steps detailed below only need to be carried out the first time you open the application.</p>
+<h3 id="battery-restrictions">Battery restrictions</h3>
+<p>First of all, the app shows a dialog box that says:</p>
+<pre><code>System will stop GPS or kill this app if you turn off the screen or put the app to the background.
+Open settings and add an exception from battery optimization to keep the app running even when the app is not visible.
+</code></pre><p>Next, a wizard takes us to the battery optimization settings for this application and we must select the &lsquo;No restrictions&rsquo; option so that the operating system does not put the application in low consumption mode when turning off the screen. You have to remember that we have designed the application to be used with the device screen off, reducing battery consumption to a minimum. If we have not disabled battery restrictions for an application, when it is no longer in the foreground or we turn off the device, the Android operating system puts that application in low power mode, restricting its access to the device&rsquo;s sensors. If this happens, our application would stop working correctly so the first thing we have to do is disable the battery restrictions for our application.</p>
+<h3 id="location-permission">Location permission</h3>
+<p>Secondly, the application requests permission to access the GPS sensor of your device. You just have to allow it while the application is running.</p>
+<h3 id="auto-start">Auto start</h3>
+<p>The following dialog box says:</p>
+<pre><code>Enable auto start permission, disable battery optimization and enter the points of the polar curve of your wing before flying.
+</code></pre><p>Of the three indications that this notice gives us, the second one was addressed in the previous point, the last one is covered in this <a href="/page/5/#project">article</a>, and the first one we&rsquo;ll see right now. It is closely related to disabling battery restrictions. Under certain conditions it is possible the operating system can close an application to free up resources. The application is designed to restart automatically in these (rare) cases but it will not be able to do so if we do not allow <code>Auto Start</code>. Please note that during the flight and with gloves on it is not feasible to get the device and restart the application manually.</p>
 <blockquote>
-<p>A voice synthesis file is a file that is used so that the speech synthesis engine can generate audible vocal messages from text. Each voice synthesis file will be associated with a language and dialect.</p>
+<p>Check how to enable <code>Auto Start</code> option in your device and do it to prevent the app from stopping working during the flight.</p>
 </blockquote>
-<p>If you want to change the default language to one of the other two languages ​​supported by the application, you can modify it in the <strong>Language</strong> option on the settings screen. The application will then search for a voice synthesis file corresponding to the language you have selected. If it cannot be found, it will display an error message telling you that you must install it and restart the application.<!-- raw HTML omitted --></p>
+<h3 id="text-to-speech-data-files">Text to speech data files</h3>
+<p>The application is available in three languages: <code>English, Spanish and Portuguese</code>. If you live in a country where any of these three languages ​​are spoken, the application menus will be displayed in the language of your country. If this is not the case, the default menu language will be English.</p>
+<p>If you want to change the default language to one of the other two languages ​​that the application supports, you can modify it in the <strong>Language</strong> option on the settings screen. Sometimes it is necessary to restart the application for the change to take effect.</p>
+<p>The application requires the presence of some speech synthesis data file to be able to generate vocal messages. Naturally the application will try to match the language of the voice messages with the language of the menus. That is why the app tries to find a speech synthesis data file for the language selected in the preferences. If it doesn&rsquo;t exist, the app will show an error message telling you to install it and restart the application.</p>
+<p>A voice synthesis file is a file that the text to speech engine uses to generate audible vocal messages from text. Each voice synthesis file is associated with a language and a dialect. The language of the voice messages or <code>Text to speech files missing</code>, if there is no voice synthesis file installed on the device, is displayed under the heading <strong>Speaker language</strong> of the main screen.</p>
+<h2 id="connect-an-external-barometer">Connect an external barometer</h2>
+<p>At this point, if your phone has a built-in barometric sensor, you should be hearing the vario tones. If you do not have any barometric sensor on the device, the main screen of the application will show the message <strong>Go to the menu or press speaker button to start the Bluefly module</strong> in the <strong>Pressure Sensor</strong> section. The <a href="https://www.blueflyvario.com/">BlueFlyVario</a> module is the only external pressure sensor supported by the application at this time. It is a hardware module with a pressure sensor that connects to the device via Bluetooth. To establish a connection to the BlueFlyVario, turn on the module, go to the application menu and select the <code>Connect a barometer</code> option. Your phone&rsquo;s bluetooth device manager will open to pair the device and, if everything goes well, you will start hearing the vario tones in the application instead of hearing them in the BlueFlyVario module. Please note that you will only have to do this step the first time you connect to the BlueFlyVario. From that moment on, the hardware address of the BlueFlyVario module will be registered and the application will connect to it without your intervention.</p>
 <blockquote>
-<p>On the main screen, under the heading <strong>Speaker language</strong>, the language of the voice messages is displayed or `Language files are missing&rsquo; if there is no voice synthesis file installed on the device.</p>
+<p>If there is an internal barometer on your phone it will be the default barometer but, if your device&rsquo;s barometer is not accurate enough, you can set an external barometer as the default in the preferences screen.</p>
 </blockquote>
+<h2 id="ready-to-takeoff">Ready to takeoff</h2>
+<p>This is the speech you will hear if the barometer is connected and the GPS has located enough satellites to triangulate your position. If the GPS is not turned on, a link will be displayed that will take you to the Android screen where you can turn it on. After starting GPS, searching for satellites may take some time. Make sure you have clear view of the sky. After hearing the speech <code>Ready to take off</code>, the vario tones are silenced until your speed exceeds 10 km/h, a sign that you have taken off. This is done to facilitate concentration during takeoff but you can change this in the settings screen.</p>
 
 	  </div>
 	  <div class="post-comments">
@@ -276,7 +315,7 @@
 	    
 	    
 	      <li>
-		 <a href="/page/2/#manual">Next</a>
+		 <a href="/page/2/#project">Next</a>
 	      </li>
 	    
 	  </ul>
@@ -290,41 +329,27 @@
 	    <h4 class="widget-title">User manual</h4>
 	    
 	    <div class="media">
-	      <a href="/#manual" class="pull-left">
+	      <a href="/#project" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/tts_english.jpg" alt="App installation">
+		<img class="media-object" src="/images/blog/mobiles_bluefly.png" alt="Introduction">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/#manual" class="current">App installation</a>
+		  <a href="/#project" class="current">Introduction</a>
 		  
 		</h4>
-		<p>Installation and language configuration.</p>
+		<p>App installation and first steps.</p>
 	      </div>
 	    </div>
 	    
 	    <div class="media">
-	      <a href="/page/2/#manual" class="pull-left">
+	      <a href="/page/2/#project" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/blog-post-2.jpg" alt="How To Wear Bright Shoes">
+		<img class="media-object" src="/images/blog/blog-post-2.jpg" alt="Main screen">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/2/#manual" class="">How To Wear Bright Shoes</a>
-		  
-		</h4>
-		<p>this is meta description</p>
-	      </div>
-	    </div>
-	    
-	    <div class="media">
-	      <a href="/page/3/#manual" class="pull-left">
-	      
-		<img class="media-object" src="/images/blog/blog-post-6.jpg" alt="How To Wear Bright Shoes">
-	      </a>
-	      <div class="media-body">
-		<h4 class="media-heading">
-		  <a href="/page/3/#manual" class="">How To Wear Bright Shoes</a>
+		  <a href="/page/2/#project" class="">Main screen</a>
 		  
 		</h4>
 		<p>this is meta description</p>
@@ -332,13 +357,27 @@
 	    </div>
 	    
 	    <div class="media">
-	      <a href="/page/4/#manual" class="pull-left">
+	      <a href="/page/3/#project" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/windmill.jpg" alt="Meteo wind">
+		<img class="media-object" src="/images/blog/blog-post-3.jpg" alt="Voice messages">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/4/#manual" class="">Meteo wind</a>
+		  <a href="/page/3/#project" class="">Voice messages</a>
+		  
+		</h4>
+		<p>Navigation through waypoints</p>
+	      </div>
+	    </div>
+	    
+	    <div class="media">
+	      <a href="/page/4/#project" class="pull-left">
+	      
+		<img class="media-object" src="/images/blog/windmill.jpg" alt="Settings">
+	      </a>
+	      <div class="media-body">
+		<h4 class="media-heading">
+		  <a href="/page/4/#project" class="">Settings</a>
 		  
 		</h4>
 		<p>The airspace app indicates the pilot the strength and direction of the meteo wind</p>
@@ -346,13 +385,13 @@
 	    </div>
 	    
 	    <div class="media">
-	      <a href="/page/5/#manual" class="pull-left">
+	      <a href="/page/5/#project" class="pull-left">
 	      
 		<img class="media-object" src="/images/blog/polar_puntos_en.png" alt="Polar curve">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/5/#manual" class="">Polar curve</a>
+		  <a href="/page/5/#project" class="">Polar curve</a>
 		  
 		</h4>
 		<p>this is meta description</p>
@@ -360,16 +399,16 @@
 	    </div>
 	    
 	    <div class="media">
-	      <a href="/page/6/#manual" class="pull-left">
+	      <a href="/page/6/#project" class="pull-left">
 	      
-		<img class="media-object" src="/images/blog/blog-post-3.jpg" alt="Navigation">
+		<img class="media-object" src="/images/blog/blog-post-6.jpg" alt="Subscription">
 	      </a>
 	      <div class="media-body">
 		<h4 class="media-heading">
-		  <a href="/page/6/#manual" class="">Navigation</a>
+		  <a href="/page/6/#project" class="">Subscription</a>
 		  
 		</h4>
-		<p>Navigation through waypoints</p>
+		<p>this is meta description</p>
 	      </div>
 	    </div>
 	    
